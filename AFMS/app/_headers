@@ -1,0 +1,7 @@
+# Netlify : forcer la revalidation des données (sinon les mises à jour restent en cache)
+/answers.js
+  Cache-Control: no-cache
+/questions.js
+  Cache-Control: no-cache
+/dupes.js
+  Cache-Control: no-cache

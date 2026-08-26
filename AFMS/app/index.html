@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QCU TFP APS — Entraînement</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar no-print">
+  <div class="brand">
+    <span class="logo">Q</span>
+    <div>QCU TFP&nbsp;APS<small>Entraînement Agent de Prévention et de Sécurité</small></div>
+  </div>
+  <a class="ghost-link" id="nav-home" href="#">Accueil</a>
+</header>
+
+<main class="wrap">
+
+  <!-- ======================= ACCUEIL / CONFIG ======================= -->
+  <section id="screen-home" class="card">
+    <h1>Générer un QCU</h1>
+    <p class="subtitle">Une seule bonne réponse par question · 45&nbsp;secondes par question · pas de retour en arrière.</p>
+
+    <div class="field">
+      <label>Format</label>
+      <div class="seg" id="fmt-seg">
+        <button data-fmt="revision" class="on">Révision libre</button>
+        <button data-fmt="examen">Examen blanc (99)</button>
+      </div>
+      <div class="hint" id="fmt-hint">Choisis tes UV et le nombre de questions.</div>
+    </div>
+
+    <div class="field" id="uv-field">
+      <label>Unités de valeur (UV)</label>
+      <div class="chips" id="uv-chips"></div>
+      <div class="hint" id="uv-hint">Aucune sélection = toutes les UV.</div>
+    </div>
+
+    <div id="exam-intro" class="hidden">
+      <div class="exam-note">
+        <h2>Mode examen blanc</h2>
+        <p>Tu vas passer un QCU dans les conditions de l'examen&nbsp;: <b>99 questions</b> suivant
+        la composition officielle du TFP&nbsp;APS, posées <b>UV par UV</b>.</p>
+        <ul>
+          <li><b>45 secondes</b> par question (le temps écoulé vaut réponse manquée).</li>
+          <li><b>Une seule</b> bonne réponse par question.</li>
+          <li>Pas de <b>retour en arrière</b> : une réponse validée est définitive.</li>
+          <li>La <b>correction</b> s'affiche après chaque validation, puis on enchaîne.</li>
+        </ul>
+        <p style="margin-bottom:0">Installe-toi au calme&nbsp;: c'est parti quand tu es prêt.</p>
+      </div>
+    </div>
+
+    <div class="field" id="len-field">
+      <label>Nombre de questions</label>
+      <div class="seg" id="len-seg">
+        <button data-len="5">5</button>
+        <button data-len="10" class="on">10</button>
+        <button data-len="20">20</button>
+        <button data-len="40">40</button>
+        <button data-len="max">Max</button>
+      </div>
+      <div class="hint" id="pool-hint"></div>
+    </div>
+
+    <button class="btn btn-primary" id="btn-generate">Générer le QCU</button>
+    <p class="foot-note">Basé exclusivement sur tes documents et le référentiel TFP&nbsp;APS.</p>
+  </section>
+
+  <!-- ======================= QUIZ ======================= -->
+  <section id="screen-quiz" class="card hidden">
+    <div class="quiz-head">
+      <div class="counter">Question <span id="q-cur">1</span><small>/<span id="q-tot">5</span></small></div>
+      <div style="display:flex;align-items:center;gap:12px">
+        <span class="uv-tag" id="q-uv">UV</span>
+        <div class="timer" id="timer">
+          <div class="ring">
+            <svg width="44" height="44" viewBox="0 0 44 44">
+              <circle class="track" cx="22" cy="22" r="19" fill="none" stroke-width="4"></circle>
+              <circle class="bar" id="ring-bar" cx="22" cy="22" r="19" fill="none" stroke-width="4"></circle>
+            </svg>
+            <div class="num" id="timer-num">45</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="progress"><div class="fill" id="progress-fill"></div></div>
+
+    <p class="question" id="q-text">…</p>
+    <div class="options" id="q-options"></div>
+    <div class="explain hidden" id="q-explain"></div>
+
+    <div class="quiz-foot">
+      <button class="btn btn-primary" id="btn-next" style="width:auto" disabled>Valider</button>
+    </div>
+  </section>
+
+  <!-- ======================= RÉSULTATS ======================= -->
+  <section id="screen-results" class="card hidden">
+    <div class="no-print">
+      <div class="score-big" id="score-big">0/0</div>
+      <div class="score-sub" id="score-sub"></div>
+      <div class="btn-row" style="margin-bottom:24px">
+        <button class="btn btn-ghost" id="btn-print">Télécharger en PDF</button>
+        <button class="btn btn-ghost" id="btn-restart">Nouveau QCU</button>
+      </div>
+      <h2>Résultats par module</h2>
+      <div id="module-recap"></div>
+      <h2 style="margin-top:24px">Correction</h2>
+    </div>
+    <div id="review-list"></div>
+    <div id="print-block"></div>
+  </section>
+
+</main>
+
+<script src="questions.js"></script>
+<script src="answers.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

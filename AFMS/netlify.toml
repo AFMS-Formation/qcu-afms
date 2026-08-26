@@ -1,0 +1,5 @@
+# Configuration Netlify — publie le dossier app/ comme site
+[build]
+  publish = "app"
+  # pas d'étape de build : site statique
+  command = ""
