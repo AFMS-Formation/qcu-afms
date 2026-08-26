@@ -1471,9 +1471,9 @@ window.QCU_ANSWERS = {
   "justification": "Vous acceptez car votre employeur a engagé sa responsabilité"
  },
  "aa12553b87": {
-  "answer": 3,
+  "answer": 4,
   "uv": 9,
-  "justification": "Fouille d'un casier : non, sauf en présence d'un représentant du personnel."
+  "justification": "Non dans tous les cas."
  },
  "3914f816a8": {
   "answer": 4,
