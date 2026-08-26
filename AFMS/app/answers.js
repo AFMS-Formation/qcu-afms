@@ -110,7 +110,8 @@ window.QCU_ANSWERS = {
  "013c11c405": {
   "answer": 3,
   "uv": 2,
-  "justification": "L'employeur doit s'assurer de l'adéquation des qualifications de ses employés avec les missions confiées."
+  "justification": "L'employeur doit s'assurer de l'adéquation des qualifications de ses employés avec les missions confiées.",
+  "intitule": "Les employeurs ont l'obligation:"
  },
  "8125109a33": {
   "answer": 2,
@@ -388,14 +389,10 @@ window.QCU_ANSWERS = {
   "justification": "Eau pulvérisée : feux de classe A (ex. feu de poubelles)."
  },
  "e12e80b05b": {
-  "answer": 4,
-  "uv": 5,
-  "justification": "Eau pulvérisée : feux de classe A (ex. feu de poubelles)."
+  "deleted": true
  },
  "458a53b43e": {
-  "answer": 2,
-  "uv": 5,
-  "justification": "Interventions incendie notées en rouge sur la main courante."
+  "deleted": true
  },
  "b359ec3a2e": {
   "answer": 4,
@@ -1109,7 +1106,15 @@ window.QCU_ANSWERS = {
  "8cba9e3efe": {
   "answer": 3,
   "uv": 8,
-  "justification": "TFP APS = Agent de Prévention et de Sécurité."
+  "justification": "TFP APS = Agent de Prévention et de Sécurité.",
+  "intitule": "Que signifient les initiales TFP APS ?",
+  "options": [
+   "Aucune des autres réponses",
+   "Titre à finalité professionnelle Agent Professionnel de Sécurité",
+   "Titre à finalité professionnelle Agent de Proximité et de Sûreté",
+   "Titre à finalité professionnelle Agent de Prévention et de Sécurité",
+   "Sécurité"
+  ]
  },
  "f92d3430b5": {
   "answer": 3,
@@ -1232,9 +1237,7 @@ window.QCU_ANSWERS = {
   "justification": "L'alarme générale sélective prévient une catégorie de personnel."
  },
  "110e7786eb": {
-  "answer": 1,
-  "uv": 9,
-  "justification": "Refus : sans agrément/arrêté et sous le seuil de 300 personnes, la palpation n'est pas autorisée."
+  "deleted": true
  },
  "01df7fa594": {
   "answer": 2,
