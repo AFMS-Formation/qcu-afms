@@ -383,23 +383,17 @@ function init(){
 }
 
 /* ---- accès apprenants par lien signé (voir access.js) ---- */
-const ACCESS_LS = "qcu_access_v1";
+// Accès accordé UNIQUEMENT si un jeton valide est présent dans le lien.
+// Pas de mémorisation : l'URL générique (sans lien) reste toujours bloquée,
+// même sur un appareil qui a déjà utilisé un lien. Le jeton reste dans l'URL
+// (donc recharger la page du lien continue de marcher pendant 26 jours).
 async function accessCheck(){
   const cfg = window.QCU_ACCESS || {};
   if(!cfg.enabled) return true;
   const lib = window.QCU_ACCESS_LIB;
   if(!lib || !(window.crypto && crypto.subtle)) return true;   // contexte non sécurisé -> pas de blocage
-  // 1) jeton présent dans le lien ?
   const urlTok = new URLSearchParams(location.search).get("acces");
-  if(urlTok && await lib.verifyToken(urlTok)){
-    localStorage.setItem(ACCESS_LS, urlTok);
-    history.replaceState({}, "", location.pathname);           // nettoie l'URL
-    return true;
-  }
-  // 2) jeton déjà mémorisé et encore valable ?
-  const stored = localStorage.getItem(ACCESS_LS);
-  if(stored && await lib.verifyToken(stored)) return true;
-  return false;
+  return !!(urlTok && await lib.verifyToken(urlTok));
 }
 async function bootAccess(){
   if(await accessCheck()){ init(); return; }
