@@ -16,8 +16,6 @@ d'une banque de questions extraite des supports de formation.
 | **Quiz** | https://afms-qcu.netlify.app/ | Les candidats / apprenants |
 | **Console de validation** | https://afms-qcu.netlify.app/admin.html | Le formateur (édition des réponses) |
 
-> ⚠️ L'URL de la console (`/admin.html`) est réservée au formateur : ne la communique pas aux candidats.
-
 ## ✨ Ce que fait l'app
 
 - ⏱️ **45 secondes par question** (chronomètre), une seule bonne réponse, **pas de retour en arrière**.
