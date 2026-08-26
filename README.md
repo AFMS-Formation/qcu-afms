@@ -72,17 +72,6 @@ GitHub + Netlify, étapes détaillées : **[DEPLOIEMENT.md](DEPLOIEMENT.md)**
 - Les bonnes réponses sont dans un fichier public : visibles par qui inspecte le code source
   (normal pour un outil d'entraînement, où la correction est de toute façon affichée).
 
-## 🛠️ Régénérer la banque depuis les PowerPoint (avancé, optionnel)
-
-Uniquement si on repart des `.pptx` sources (rare). Nécessite Python 3.
-
-```bash
-./build.sh ~/Downloads      # extrait les .pptx → questions + doublons
-```
-
-⚠️ `tools/proposals.py` **refuse d'écraser** `app/answers.js` tant qu'il porte l'en-tête
-« VALIDÉ » (la clé de correction validée par le formateur ne doit pas être régénérée).
-
 ---
 
 *Basé exclusivement sur les supports fournis et le référentiel TFP APS.*
