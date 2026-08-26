@@ -1,4 +1,4 @@
-// VALIDÉ PAR FABIEN — 2026-08-25 — clé de correction officielle. Ne PAS régénérer via tools/proposals.py.
+// VALIDÉ PAR FABIEN — 2026-08-26 — clé de correction officielle. Ne PAS régénérer via tools/proposals.py.
 window.QCU_ANSWERS = {
  "a5116f393a": {
   "answer": 3,
@@ -21,9 +21,7 @@ window.QCU_ANSWERS = {
   "justification": "La confidentialité s'impose sous réserve des cas prévus ou autorisés par la loi (ex. procédure judiciaire)."
  },
  "1e853f144c": {
-  "answer": 4,
-  "uv": 2,
-  "justification": "Accès frauduleux, virus, suppression, modification : ce sont toutes des atteintes aux STAD."
+  "deleted": true
  },
  "701d63d8d8": {
   "answer": 3,
@@ -43,7 +41,7 @@ window.QCU_ANSWERS = {
  "665d8d99b8": {
   "answer": 0,
   "uv": 2,
-  "justification": "La carte professionnelle est personnelle à l'agent : il la conserve en fin de contrat."
+  "justification": "La carte doit être remise à l'employeur."
  },
  "a0d35f423a": {
   "answer": 3,
@@ -88,7 +86,7 @@ window.QCU_ANSWERS = {
  "49dae8c502": {
   "answer": 3,
   "uv": 2,
-  "justification": "Employer un agent sans carte professionnelle est puni de 1 an d'emprisonnement et 15 000 € d'amende (CSI)."
+  "justification": "Employer un agent sans carte professionnelle est puni de 2 ans d'emprisonnement et 30 000 € d'amende (CSI)."
  },
  "a21c2e4389": {
   "answer": 0,
@@ -98,7 +96,7 @@ window.QCU_ANSWERS = {
  "5a488106de": {
   "answer": 3,
   "uv": 2,
-  "justification": "Non applicable : l'interdiction temporaire d'exercer est de 5 ans maximum, pas 7 ans."
+  "justification": "Non applicable : l'interdiction temporaire d'exercer est de 7 ans maximum."
  },
  "d086bb0bed": {
   "answer": 0,
@@ -486,14 +484,7 @@ window.QCU_ANSWERS = {
  "1ef70ababd": {
   "answer": 4,
   "uv": 5,
-  "justification": "Le comburant est un côté du triangle du feu (avec le combustible et l'énergie d'activation).",
-  "options": [
-   "Aucune des autres réponses",
-   "La conduction",
-   "Le refroidissement",
-   "La combustion",
-   "Le comburant"
-  ]
+  "justification": "Le comburant est un côté du triangle du feu (avec le combustible et l'énergie d'activation)."
  },
  "eabb5eafb5": {
   "answer": 3,
@@ -554,14 +545,7 @@ window.QCU_ANSWERS = {
  "4e79b0e5ae": {
   "answer": 0,
   "uv": 5,
-  "justification": "Délit flagrant : le délit se commet actuellement.",
-  "options": [
-   "Le délit se commet actuellement",
-   "La personne discute avec un agent de sécurité incendie",
-   "Aucune des autres réponses",
-   "La personne est poursuivie par la rumeur publique",
-   "La personne gare sa voiture sur une place"
-  ]
+  "justification": "Délit flagrant : le délit se commet actuellement."
  },
  "cc27af71f3": {
   "answer": 0,
@@ -581,14 +565,7 @@ window.QCU_ANSWERS = {
  "b8dc955600": {
   "answer": 2,
   "uv": 5,
-  "justification": "On privilégie la levée de doute de l'alarme incendie.",
-  "options": [
-   "La plus proche du PCS",
-   "Lalarme intrusion",
-   "L'alarme incendie",
-   "La plus proche de l'agent rondier",
-   "Aucune des autres réponses"
-  ]
+  "justification": "On privilégie la levée de doute de l'alarme incendie."
  },
  "a2d4c9fa25": {
   "answer": 2,
@@ -598,8 +575,7 @@ window.QCU_ANSWERS = {
  "4abf14e44f": {
   "answer": 2,
   "uv": 6,
-  "justification": "Le droit d'appréhender découle de l'article 73 CPP (non listé) : aucune des autres réponses.",
-  "intitule": "Au titre de quel article de loi un agent de prévention et de sécurité peut-il appréhender un individu ?"
+  "justification": "Le droit d'appréhender découle de l'article 73 CPP (non listé) : aucune des autres réponses."
  },
  "d98648ac8b": {
   "answer": 0,
@@ -738,14 +714,7 @@ window.QCU_ANSWERS = {
  "dfad4a8d15": {
   "answer": 3,
   "uv": 6,
-  "justification": "Agression pendant l'appréhension : réagir en respectant les conditions de la légitime défense.",
-  "options": [
-   "D'utiliser tous les moyens y compris une arme",
-   "Aucune des autres réponses",
-   "D'utiliser la violence physique et verbale",
-   "De réagir immédiatement en respectant les obligations de la légitime défense",
-   "De menotter la personne contre un radiateur"
-  ]
+  "justification": "Agression pendant l'appréhension : réagir en respectant les conditions de la légitime défense."
  },
  "4c7cdb339d": {
   "answer": 2,
@@ -758,26 +727,12 @@ window.QCU_ANSWERS = {
  "e0906b8706": {
   "answer": 1,
   "uv": 6,
-  "justification": "On peut utiliser la force strictement nécessaire au but recherché.",
-  "options": [
-   "De menotter la personne",
-   "Utiliser la force strictement nécessaire au but recherché",
-   "D'utiliser la violence",
-   "Aucune des autres réponses",
-   "D'utiliser tous les moyens"
-  ]
+  "justification": "On peut utiliser la force strictement nécessaire au but recherché."
  },
  "fe914f30cb": {
   "answer": 2,
   "uv": 6,
-  "justification": "Aviser le PC pour organiser l'appréhension en cas de sortie sans achat (vol consommé à la sortie).",
-  "options": [
-   "Aucune des autres réponses",
-   "Je le laisse faire car ce n'est pas mon problème",
-   "J'avise le PC pour qu'il mette en place une équipe pour l'appréhender en cas de sortie sans achat",
-   "J'appelle directement la police délit",
-   "Je vais vers lui et l'appréhende dans le magasin car je l'ai pris en flagrant"
-  ]
+  "justification": "Aviser le PC pour organiser l'appréhension en cas de sortie sans achat (vol consommé à la sortie)."
  },
  "0fca091993": {
   "answer": 1,
@@ -812,14 +767,7 @@ window.QCU_ANSWERS = {
  "82e5a90989": {
   "answer": 3,
   "uv": 7,
-  "justification": "Se jeter au sol, à plat ventre, face contre terre.",
-  "options": [
-   "Sauter à plat ventre sur la grenade pour protéger les autres",
-   "Se tenir debout derrière une cloison vitrée",
-   "Relancer la grenade à l'envoyeur",
-   "S'allonger face contre sol",
-   "Aucune des autres réponses"
-  ]
+  "justification": "Se jeter au sol, à plat ventre, face contre terre."
  },
  "362533feb6": {
   "answer": 3,
@@ -927,14 +875,7 @@ window.QCU_ANSWERS = {
  "372ea31006": {
   "answer": 3,
   "uv": 7,
-  "justification": "Laisser ses affaires, aider les autres à fuir, se confiner si on ne peut courir, alerter : toutes appropriées.",
-  "options": [
-   "Laisser vos affaires derrière vous",
-   "Si possible, aider les autres personnes à s'échapper",
-   "Si vous ne pouvez pas courir, se confiner, éteindre la lumière et couper le son des appareils à proximité",
-   "Toutes les réponses précédentes sont exactes",
-   "Alerter les personnes autour de vous"
-  ]
+  "justification": "Laisser ses affaires, aider les autres à fuir, se confiner si on ne peut courir, alerter : toutes appropriées."
  },
  "0ee6ed86be": {
   "answer": 2,
@@ -1047,14 +988,7 @@ window.QCU_ANSWERS = {
  "31b58d32f7": {
   "answer": 2,
   "uv": 8,
-  "justification": "L'évaluation des risques professionnels figure dans le document unique.",
-  "options": [
-   "Aucune des autres réponses",
-   "Le document de santé et de protection des salariés",
-   "Le document unique",
-   "Le document des dangers",
-   "Le document des risques"
-  ]
+  "justification": "L'évaluation des risques professionnels figure dans le document unique."
  },
  "ce1fa407c8": {
   "deleted": true
@@ -1100,8 +1034,7 @@ window.QCU_ANSWERS = {
  "4d2a5b7243": {
   "answer": 4,
   "uv": 8,
-  "justification": "Le signaler à l'arrière-caisse et le suivre discrètement.",
-  "intitule": "Lorsque l'agent pré-vol remarque qu'une personne a dissimulé un objet prélevé dans un rayon:"
+  "justification": "Le signaler à l'arrière-caisse et le suivre discrètement."
  },
  "083ee5416b": {
   "deleted": true
@@ -1109,14 +1042,7 @@ window.QCU_ANSWERS = {
  "b73daa7b02": {
   "answer": 2,
   "uv": 8,
-  "justification": "Aucun travailleur ne doit rester isolé en un point où il ne pourrait être secouru à bref délai.",
-  "options": [
-   "Que le travailleur soit toujours joint en moins de 10 minutes",
-   "Que le travailleur ne soit jamais seul en tout point du site",
-   "Qu'aucun travailleur ne travaille isolément en un point où il ne pourrait être secouru à bref délai en cas d'accident",
-   "Que le travailleur travaille seul en un point du site afin d'être tranquille",
-   "Aucune des autres réponses"
-  ]
+  "justification": "Aucun travailleur ne doit rester isolé en un point où il ne pourrait être secouru à bref délai."
  },
  "3d1a14f826": {
   "deleted": true
@@ -1184,26 +1110,12 @@ window.QCU_ANSWERS = {
  "8cba9e3efe": {
   "answer": 3,
   "uv": 8,
-  "justification": "TFP APS = Agent de Prévention et de Sécurité.",
-  "options": [
-   "Aucune des autres réponses",
-   "Titre à finalité professionnelle Agent Professionnel de Sécurité",
-   "Titre à finalité professionnelle Agent de Proximité et de Sûreté",
-   "Titre à finalité professionnelle Agent de Prévention et de Sécurité",
-   "Sécurité"
-  ]
+  "justification": "TFP APS = Agent de Prévention et de Sécurité."
  },
  "f92d3430b5": {
   "answer": 3,
   "uv": 8,
-  "justification": "Clôturer un site rend l'évacuation plus difficile.",
-  "options": [
-   "Aucun, la clôture supprime tous les risques",
-   "Aucune des autres réponses",
-   "Engorgement important à l'entrée du site",
-   "Rendre l'évacuation plus difficile",
-   "Provoquer des attroupements à l'extérieur du site"
-  ]
+  "justification": "Clôturer un site rend l'évacuation plus difficile."
  },
  "297e039481": {
   "answer": 2,
@@ -1288,14 +1200,7 @@ window.QCU_ANSWERS = {
  "71bd0de400": {
   "answer": 1,
   "uv": 8,
-  "justification": "L'agent au PC dépêche le rondier sur le lieu de l'alarme pour la levée de doute et reste au PC.",
-  "options": [
-   "Vous effectuez vous-même la levée de doute",
-   "Vous demandez à votre collègue de se rendre sur le lieu du déclenchement de l'alarme pour effectuer la levée de doute",
-   "Aucune des autres réponses",
-   "Vous attendez que votre collègue finisse sa ronde pour intervenir",
-   "Vous rejoignez au plus vite votre collègue pour intervenir plus efficacement"
-  ]
+  "justification": "L'agent au PC dépêche le rondier sur le lieu de l'alarme pour la levée de doute et reste au PC."
  },
  "92cc70ad6d": {
   "answer": 0,
@@ -1330,8 +1235,7 @@ window.QCU_ANSWERS = {
  "110e7786eb": {
   "answer": 1,
   "uv": 9,
-  "justification": "Refus : sans agrément/arrêté et sous le seuil de 300 personnes, la palpation n'est pas autorisée.",
-  "intitule": "Votre employeur vous demande d'effectuer des palpations de sécurité lors d'un gala de bienfaisance réunissant 200 personnes. Que faites-vous"
+  "justification": "Refus : sans agrément/arrêté et sous le seuil de 300 personnes, la palpation n'est pas autorisée."
  },
  "01df7fa594": {
   "answer": 2,
@@ -1447,14 +1351,7 @@ window.QCU_ANSWERS = {
  "ebce098b76": {
   "answer": 2,
   "uv": 9,
-  "justification": "« Sous le contrôle d'un OPJ » : OPJ désigné par le préfet, en situation d'astreinte.",
-  "options": [
-   "Qu'un nombre d'OPJ proportionné au nombre d'agents doit être présent",
-   "Qu'un OPJ doit être obligatoirement présent sur les lieux de la manifestation",
-   "Désignation d'un OPJ par le Préfet et sa situation d'astreinte",
-   "Aucune des autres réponses",
-   "Qu'un OPJ peut désigner un Agent de Police judiciaire adjoint pour le représenter"
-  ]
+  "justification": "« Sous le contrôle d'un OPJ » : OPJ désigné par le préfet, en situation d'astreinte."
  },
  "360d3e6ba9": {
   "answer": 1,
@@ -1798,15 +1695,7 @@ window.QCU_ANSWERS = {
  "46726d97b2": {
   "answer": 2,
   "uv": 12,
-  "justification": "Des billets vendus au dernier moment sans places réservées",
-  "intitule": "Parmi ces éléments, quels sont les facteurs aggravant du risque de gestion de l'événement ?",
-  "options": [
-   "Aucune des autres réponses",
-   "Des billets prévendus en totalité longtemps à l'avance sans places réservées",
-   "Des billets vendus au dernier moment sans places réservées",
-   "Des billets prévendus en totalité longtemps à l'avance avec places",
-   "Des billets vendus au dernier moment avec places réservées"
-  ]
+  "justification": "Des billets vendus au dernier moment sans places réservées"
  },
  "f039aadc64": {
   "answer": 3,
@@ -1851,8 +1740,7 @@ window.QCU_ANSWERS = {
  "78728853e1": {
   "answer": 3,
   "uv": 14,
-  "justification": "Plan de prévention obligatoire dès que la durée des travaux atteint 400 heures sur 12 mois (ou travaux dangereux).",
-  "intitule": "Quand doit-on rédiger un plan de prévention ?"
+  "justification": "Plan de prévention obligatoire dès que la durée des travaux atteint 400 heures sur 12 mois (ou travaux dangereux)."
  },
  "befe981781": {
   "answer": 1,

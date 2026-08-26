@@ -58,6 +58,23 @@
 </div>
 
 <main class="wrap">
+  <div id="access-codes" style="background:var(--accent-soft);border:1px solid #cdd9fb;border-radius:10px;padding:12px 14px;margin-bottom:14px;font-size:13.5px;display:none">
+    <b style="color:var(--accent)">🔑 Accès apprenants</b>
+    <span style="color:var(--ink-soft)">— génère un lien à envoyer à tes apprenants (valable <span id="access-days">26</span> jours).</span>
+    <div style="margin-top:8px">
+      <button id="gen-access" class="btn btn-ghost" style="padding:6px 12px;font-size:13px">Générer un lien d'accès</button>
+    </div>
+    <div id="access-out" style="display:none;margin-top:10px">
+      <input id="access-link" readonly onclick="this.select()"
+        style="width:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:12.5px;background:#fff">
+      <div style="margin-top:6px;display:flex;align-items:center;gap:10px">
+        <button id="copy-link" class="btn btn-ghost" style="padding:5px 12px;font-size:12.5px">Copier le lien</button>
+        <span id="copied-link" style="color:var(--ok);font-size:12.5px;display:none">Copié ✓</span>
+        <span id="access-exp" style="color:var(--ink-soft);font-size:12.5px"></span>
+      </div>
+    </div>
+  </div>
+
   <div class="jump" style="margin-bottom:14px;flex-wrap:wrap">
     <button class="btn btn-ghost" id="prev" style="padding:8px 14px" title="Question précédente (←)">←</button>
     <input id="goto" type="number" min="1" style="width:70px;border:1px solid var(--line);border-radius:9px;padding:8px" />
@@ -106,9 +123,23 @@
     double-clique son texte pour le corriger. Sauvegarde automatique.</p>
 </main>
 
+<div id="gate" style="position:fixed;inset:0;background:var(--bg);z-index:1000;display:none;align-items:center;justify-content:center;padding:20px">
+  <form id="gate-form" style="background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:28px;max-width:340px;width:100%;box-shadow:var(--shadow)">
+    <div style="font-weight:700;margin-bottom:6px">🔒 Console formateur</div>
+    <div style="color:var(--ink-soft);font-size:13px;margin-bottom:16px">Accès réservé — entre le mot de passe.</div>
+    <input id="gate-pass" type="password" placeholder="Mot de passe" autocomplete="current-password"
+      style="width:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:14px;font-family:inherit">
+    <div id="gate-err" style="color:var(--ko);font-size:12.5px;margin-top:8px;display:none">Mot de passe incorrect.</div>
+    <button class="btn btn-primary" type="submit" style="width:100%;margin-top:14px">Entrer</button>
+  </form>
+</div>
+
 <script src="questions.js"></script>
 <script src="answers.js"></script>
 <script src="dupes.js"></script>
+<script src="admin-config.js"></script>
+<script src="access-config.js"></script>
+<script src="access.js"></script>
 <script src="admin.js"></script>
 </body>
 </html>

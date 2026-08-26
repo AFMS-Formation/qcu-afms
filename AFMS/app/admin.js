@@ -282,8 +282,28 @@ function exportAnswers(){
   URL.revokeObjectURL(a.href);
 }
 
+function renderAccessCodes(){
+  const lib=window.QCU_ACCESS_LIB, cfg=window.QCU_ACCESS||{};
+  if(!lib || !cfg.enabled || !(window.crypto&&crypto.subtle)) return;
+  const days = cfg.linkDays || 26;
+  $("#access-days").textContent = days;
+  $("#access-codes").style.display="block";
+  $("#gen-access").onclick = async () => {
+    const r = await lib.generateLink(days);
+    $("#access-link").value = r.link;
+    $("#access-exp").textContent = "valable jusqu'au " + lib.dayToDate(r.expiryDay-1).toLocaleDateString('fr-FR');
+    $("#access-out").style.display = "block";
+    $("#copied-link").style.display = "none";
+    $("#access-link").focus(); $("#access-link").select();
+  };
+  $("#copy-link").onclick = () => {
+    const i=$("#access-link"); i.select();
+    navigator.clipboard.writeText(i.value).then(()=>{ $("#copied-link").style.display="inline"; });
+  };
+}
 function init(){
   buildUVSelect();
+  renderAccessCodes();
   $("#prev").onclick=()=>go(-1);
   $("#next").onclick=()=>go(1);
   $("#goto").onchange=e=>{ let v=parseInt(e.target.value,10); if(v>=1&&v<=order.length){pos=v-1;render();} };
@@ -328,5 +348,24 @@ function init(){
   render();
   console.log(`Console validation — ${Q.length} questions.`);
 }
-document.addEventListener("DOMContentLoaded",init);
+
+/* ---- verrou mot de passe (SHA-256, côté navigateur) ---- */
+async function _sha256(s){
+  const b = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(s));
+  return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('');
+}
+function bootGate(){
+  const hash = window.QCU_ADMIN_HASH || "";
+  const authed = sessionStorage.getItem('qcu_admin_ok') === '1';
+  // pas de hash défini, déjà authentifié, ou contexte non sécurisé (file://) -> pas de verrou
+  if(!hash || authed || !(window.crypto && crypto.subtle)){ init(); return; }
+  const gate = $("#gate"); gate.style.display = 'flex'; $("#gate-pass").focus();
+  $("#gate-form").onsubmit = async (e) => {
+    e.preventDefault();
+    const h = await _sha256($("#gate-pass").value);
+    if(h === hash){ sessionStorage.setItem('qcu_admin_ok','1'); gate.style.display='none'; init(); }
+    else { $("#gate-err").style.display='block'; $("#gate-pass").value=''; $("#gate-pass").focus(); }
+  };
+}
+document.addEventListener("DOMContentLoaded", bootGate);
 })();

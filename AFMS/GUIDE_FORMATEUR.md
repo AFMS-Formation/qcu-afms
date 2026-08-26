@@ -4,14 +4,32 @@ Ce guide explique comment **modifier les questions/réponses** et **publier** le
 pour tous, sans aide technique. Aucune connaissance en informatique nécessaire.
 
 Tu manipules deux liens :
-- 🛠️ **Console de validation** : ⟨https://qcu-afms.netlify.app/admin.html⟩
-- 📄 **Fichier des réponses sur GitHub** : ⟨https://github.com/TON-COMPTE/qcu-afms/blob/main/app/answers.js⟩
+- 🛠️ **Console de validation** : https://afms-qcu.netlify.app/admin.html
+- 📄 **Fichier des réponses sur GitHub** : ⟨https://github.com/TON-COMPTE/TON-REPO/blob/main/AFMS/app/answers.js⟩
+  *(Fabien te donne ce lien exact — le fichier est dans le dossier `AFMS/app`.)*
 
 ---
 
-## 1. Modifier dans la console
+## 0. Donner l'accès du quiz à tes apprenants (lien d'accès)
 
-Ouvre la **console de validation** (1er lien). Tu peux :
+Le quiz est **protégé** : sans lien d'accès valide, personne n'entre (les autres centres ne
+peuvent donc pas utiliser l'app via l'URL).
+
+Dans la console, bandeau **🔑 Accès apprenants** → bouton **« Générer un lien d'accès »** :
+1. Clique dessus **quand tu veux** (au début d'une session par exemple).
+2. Tu obtiens un **lien** (valable **26 jours** à partir de ce moment ; la date d'expiration
+   est affichée). Bouton **« Copier le lien »**.
+3. **Envoie ce lien à tes apprenants** (WhatsApp, mail, QR code…). Ils cliquent dessus →
+   ils accèdent au quiz, et n'ont plus besoin du lien pendant 26 jours (c'est mémorisé sur
+   leur appareil).
+
+Au bout de 26 jours, le lien expire : tu en génères simplement un nouveau. Chaque lien est
+**signé** : personne ne peut en fabriquer un faux ni prolonger la date sans la clé interne.
+
+## 1. Modifier les questions dans la console
+
+Ouvre la **console de validation** (1er lien). Elle demande un **mot de passe** (Fabien te le
+donne). Une fois entré, tu ne le retapes pas de la session. Tu peux :
 
 | Pour… | Faire… |
 |---|---|
@@ -36,7 +54,7 @@ Un fichier **`answers.js`** se télécharge (dans ton dossier *Téléchargements
 ## 3. Publier (pour que tout le monde voie tes changements)
 
 1. Ouvre le **2e lien** (fichier des réponses sur GitHub).
-2. Reviens d'un niveau sur le dossier **`app`** (clic sur « app » dans le fil d'Ariane en haut).
+2. Reviens d'un niveau sur le dossier **`AFMS/app`** (clic sur « app » dans le fil d'Ariane en haut).
 3. Bouton **« Add file » → « Upload files »**.
 4. **Glisse** ton fichier `answers.js` téléchargé dans la zone (il remplace l'ancien, même nom).
 5. En bas, bouton vert **« Commit changes »**.

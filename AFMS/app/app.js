@@ -381,5 +381,29 @@ function init(){
     applyFormatUI(); show("screen-home"); renderHome(); };
   console.log(`QCU TFP APS — ${QUESTIONS.length} questions, ${READY.length} avec correction.`);
 }
-document.addEventListener("DOMContentLoaded",init);
+
+/* ---- accès apprenants par lien signé (voir access.js) ---- */
+const ACCESS_LS = "qcu_access_v1";
+async function accessCheck(){
+  const cfg = window.QCU_ACCESS || {};
+  if(!cfg.enabled) return true;
+  const lib = window.QCU_ACCESS_LIB;
+  if(!lib || !(window.crypto && crypto.subtle)) return true;   // contexte non sécurisé -> pas de blocage
+  // 1) jeton présent dans le lien ?
+  const urlTok = new URLSearchParams(location.search).get("acces");
+  if(urlTok && await lib.verifyToken(urlTok)){
+    localStorage.setItem(ACCESS_LS, urlTok);
+    history.replaceState({}, "", location.pathname);           // nettoie l'URL
+    return true;
+  }
+  // 2) jeton déjà mémorisé et encore valable ?
+  const stored = localStorage.getItem(ACCESS_LS);
+  if(stored && await lib.verifyToken(stored)) return true;
+  return false;
+}
+async function bootAccess(){
+  if(await accessCheck()){ init(); return; }
+  $("#gate").style.display = "flex";
+}
+document.addEventListener("DOMContentLoaded", bootAccess);
 })();

@@ -49,6 +49,16 @@ C'est tout. À chaque mise à jour du formateur, Netlify republie automatiquemen
 
 ---
 
+## Mot de passe de la console formateur
+
+La console `admin.html` est protégée par un **mot de passe** (verrou côté navigateur).
+- **Mot de passe par défaut : `afms-formateur`** — donne-le au formateur, et **change-le**.
+- **Pour le changer :** ouvre `…/admin-setup.html`, tape ton nouveau mot de passe, copie la
+  ligne obtenue, remplace la ligne dans `app/admin-config.js`, puis republie (dépose
+  `admin-config.js` sur GitHub). Le mot de passe n'est jamais stocké en clair (haché SHA-256).
+- ⚠️ C'est un verrou « anti-curieux », pas une sécurité inviolable. La vraie protection des
+  données reste ton compte GitHub (seul lui peut publier une mise à jour).
+
 ## Notes importantes
 - Le fichier `app/_headers` empêche le cache de figer les mises à jour (les visiteurs voient
   toujours la dernière version des réponses).
