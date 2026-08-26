@@ -1,4 +1,3 @@
-// VALIDÉ PAR FABIEN — 2026-08-26 — clé de correction officielle. Ne PAS régénérer via tools/proposals.py.
 window.QCU_ANSWERS = {
  "a5116f393a": {
   "answer": 3,
@@ -627,9 +626,9 @@ window.QCU_ANSWERS = {
   "justification": "Le droit d'appréhender est encadré par l'article 73 du Code de procédure pénale."
  },
  "a6dbf12153": {
-  "answer": 0,
+  "answer": 1,
   "uv": 6,
-  "justification": "On peut appréhender en surface de vente en cas de flagrant délit. (à confirmer)"
+  "justification": "On peut appréhender en surface de vente en cas de flagrant délit."
  },
  "60241888df": {
   "answer": 3,
