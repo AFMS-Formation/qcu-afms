@@ -5,7 +5,6 @@ pour tous, sans aide technique. Aucune connaissance en informatique nécessaire.
 
 Tu manipules deux liens :
 - 🛠️ **Console de validation** : https://afms-qcu.netlify.app/admin.html
-- 📄 **Fichier des réponses sur GitHub** : https://github.com/TON-COMPTE/TON-REPO/blob/main/AFMS/app/answers.js
 
 ---
 
