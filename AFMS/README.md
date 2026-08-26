@@ -13,8 +13,8 @@ d'une banque de questions extraite des supports de formation.
 
 | | Lien | Pour qui |
 |---|---|---|
-| **Quiz** | ⟨https://qcu-afms.netlify.app⟩ | Les candidats / apprenants |
-| **Console de validation** | ⟨https://qcu-afms.netlify.app/admin.html⟩ | Le formateur (édition des réponses) |
+| **Quiz** | https://qcu-afms.netlify.app | Les candidats / apprenants |
+| **Console de validation** | https://qcu-afms.netlify.app/admin.html | Le formateur (édition des réponses) |
 
 *(Remplace les `⟨…⟩` par les vraies URL Netlify une fois le site déployé.)*
 
