@@ -1343,9 +1343,9 @@ window.QCU_ANSWERS = {
   "justification": "L'E.C.S. (Équipement de Contrôle et de Signalisation) collecte les informations provenant des DAI (détecteurs automatiques) et des DM (déclencheurs manuels) du SDI."
  },
  "a755fa474d": {
-  "answer": 0,
+  "answer": 3,
   "uv": 11,
-  "justification": "Pour entrer dans un local avec TGBT, l'habilitation électrique minimale est BS ou BE Manœuvre (opérations/manœuvres simples). (à confirmer)"
+  "justification": "Pour entrer dans un local avec TGBT, l'habilitation électrique minimale est H0/B0 Manœuvre (opérations/manœuvres simples)."
  },
  "13c3e5dd01": {
   "answer": 1,
