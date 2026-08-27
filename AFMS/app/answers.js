@@ -710,7 +710,8 @@ window.QCU_ANSWERS = {
  "4abf14e44f": {
   "answer": 2,
   "uv": 6,
-  "justification": "Aucune des autres : le droit d'appréhension découle de l'article 73 du Code de procédure pénale, qui n'est pas dans la liste proposée."
+  "justification": "Aucune des autres : le droit d'appréhension découle de l'article 73 du Code de procédure pénale, qui n'est pas dans la liste proposée.",
+  "intitule": "Au titre de quel article de loi un agent de prévention et de sécurité peut-il appréhender un individu ?"
  },
  "d98648ac8b": {
   "answer": 0,
@@ -1992,7 +1993,8 @@ window.QCU_ANSWERS = {
  "78728853e1": {
   "answer": 3,
   "uv": 14,
-  "justification": "Un plan de prévention est obligatoire dès que la durée prévisible des travaux atteint au moins 400 heures sur 12 mois (ou en cas de travaux dangereux) — art. R4512-7 du Code du travail."
+  "justification": "Un plan de prévention est obligatoire dès que la durée prévisible des travaux atteint au moins 400 heures sur 12 mois (ou en cas de travaux dangereux) — art. R4512-7 du Code du travail.",
+  "intitule": "Quand doit-on rédiger un plan de prévention ?"
  },
  "befe981781": {
   "answer": 1,
