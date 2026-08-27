@@ -1399,14 +1399,14 @@ window.QCU_ANSWERS = {
   "justification": "Palpation possible dans le cadre de l'état de nécessité (art. 122-7 CP)."
  },
  "ba7c7dbaba": {
-  "answer": 1,
-  "uv": 9,
-  "justification": "Manifestations sportives : agents habilités par l'employeur puis agréés par le préfet de département."
- },
- "aa1959b011": {
   "answer": 0,
   "uv": 9,
-  "justification": "Même sexe, accord de la personne, habilitation de l'employeur et agrément."
+  "justification": "Rien est nécessaire, hormis être désigné par son employeur"
+ },
+ "aa1959b011": {
+  "answer": 3,
+  "uv": 9,
+  "justification": "Même sexe, accord de la personne, contrôle d'un OPJ"
  },
  "0ae9d0b040": {
   "answer": 3,
