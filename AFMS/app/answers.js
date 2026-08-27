@@ -1,5 +1,3 @@
-// VALIDÉ PAR FABIEN — base 2026-08-27 (dernière export) — clé de correction officielle. Ne PAS régénérer via tools/proposals.py.
-// + 51 questions récupérées le 2026-08-27 (justif. « À CONFIRMER » — à valider via le filtre ⚠).
 window.QCU_ANSWERS = {
  "a5116f393a": {
   "answer": 3,
@@ -15,6 +13,11 @@ window.QCU_ANSWERS = {
   "answer": 3,
   "uv": 2,
   "justification": "Le Code de déontologie (Livre VI du CSI, partie réglementaire, art. R631-1 et s.) impose à l'employeur de n'affecter un agent qu'à des missions correspondant à ses qualifications et aptitudes."
+ },
+ "187a3b626d": {
+  "answer": 2,
+  "uv": 2,
+  "justification": "L'agent doit pouvoir présenter à tout moment sa carte professionnelle aux agents du CNAPS et aux forces de l'ordre (police/gendarmerie) qui la contrôlent. Base : Livre VI du CSI. (à confirmer)"
  },
  "1d82dbe147": {
   "answer": 2,
@@ -49,6 +52,21 @@ window.QCU_ANSWERS = {
   "uv": 2,
   "justification": "Une réquisition légale d'une autorité (ex. OPJ) doit être exécutée ; refuser sans motif légitime est un délit. On ne peut donc s'y soustraire sans raison valable (Code de procédure pénale)."
  },
+ "b8dca3482c": {
+  "answer": 3,
+  "uv": 2,
+  "justification": "On ne peut devenir formateur en sécurité privée après un retrait de sa carte professionnelle : cette sanction disciplinaire fait perdre la condition de moralité et d'aptitude exigée. Base : Livre VI du CSI. (à confirmer)"
+ },
+ "c13a16242a": {
+  "answer": 3,
+  "uv": 2,
+  "justification": "L'hymne national est La Marseillaise ; son premier vers est « Allons enfants de la Patrie ». Symbole de la République (art. 2 de la Constitution). (à confirmer)"
+ },
+ "96d865f8b3": {
+  "answer": 0,
+  "uv": 2,
+  "justification": "L'accès à la carte pro / à la formation exige une connaissance suffisante du français, vérifiée par un test défini par la réglementation (pas une simple attestation ni un diplôme au choix). Base : Livre VI du CSI. (à confirmer)"
+ },
  "babef3fcbc": {
   "answer": 0,
   "uv": 2,
@@ -58,6 +76,31 @@ window.QCU_ANSWERS = {
   "answer": 2,
   "uv": 2,
   "justification": "La formation de maintien et d'actualisation des compétences (MAC), nécessaire au renouvellement, est à la charge de l'employeur au titre de la formation professionnelle continue (Code du travail)."
+ },
+ "be87dc4cfa": {
+  "answer": 2,
+  "uv": 2,
+  "justification": "La liberté d'aller et venir est une liberté fondamentale rattachée à la Déclaration des droits de l'Homme et du citoyen de 1789 ; elle limite les prérogatives de l'agent (pas de rétention arbitraire). (à confirmer)"
+ },
+ "5eea920f62": {
+  "answer": 4,
+  "uv": 2,
+  "justification": "Le Gouvernement détient l'initiative des lois : il prépare et dépose les « projets de loi » (les parlementaires déposent des « propositions de loi »). C'est ensuite le Parlement qui vote. (à confirmer)"
+ },
+ "9ea87e2f62": {
+  "answer": 0,
+  "uv": 2,
+  "justification": "Le Premier ministre est nommé par le Président de la République, qui met aussi fin à ses fonctions (art. 8 de la Constitution). (à confirmer)"
+ },
+ "c3f6fb9445": {
+  "answer": 1,
+  "uv": 2,
+  "justification": "Le Président de la République est élu au suffrage universel direct par les citoyens inscrits (art. 6 et 7 de la Constitution). (à confirmer)"
+ },
+ "e633bb4cfb": {
+  "answer": 4,
+  "uv": 2,
+  "justification": "Le Parlement est bicaméral : Assemblée nationale (députés, suffrage direct) + Sénat (sénateurs, suffrage indirect). Art. 24 de la Constitution. (à confirmer)"
  },
  "b8583f63db": {
   "answer": 2,
@@ -69,10 +112,20 @@ window.QCU_ANSWERS = {
   "uv": 2,
   "justification": "Le recrutement est garanti par la détention d'une carte professionnelle valide, dématérialisée, délivrée par le directeur du CNAPS (carte numérique depuis 2018). Base : Livre VI du CSI."
  },
+ "fcfabe10b2": {
+  "answer": 1,
+  "uv": 2,
+  "justification": "Parmi les propositions, le sabotage est une atteinte aux intérêts fondamentaux de la nation (art. 411-9 du Code pénal). (à confirmer)"
+ },
  "ffe919f0fd": {
   "answer": 2,
   "uv": 2,
   "justification": "Pour entrer en formation, le candidat doit obtenir du CNAPS une autorisation préalable (ou provisoire) d'exercice, délivrée après contrôle de moralité (bulletin n°2). Base : Livre VI du CSI."
+ },
+ "e1b52db392": {
+  "answer": 1,
+  "uv": 2,
+  "justification": "pour français justificatif de domicile 3 mois"
  },
  "1e9d29da26": {
   "answer": 0,
@@ -89,10 +142,25 @@ window.QCU_ANSWERS = {
   "uv": 2,
   "justification": "Employer un agent non titulaire de la carte professionnelle expose l'employeur à 2 ans d'emprisonnement et 30 000 € d'amende (dispositions pénales du Livre VI du CSI)."
  },
+ "86647399f3": {
+  "answer": 3,
+  "uv": 2,
+  "justification": "Hiérarchie des normes (pyramide de Kelsen) : Constitution > Loi > Décret > Arrêté > Circulaire ; chaque niveau doit respecter le niveau supérieur. (à confirmer)"
+ },
  "a21c2e4389": {
   "answer": 0,
   "uv": 2,
   "justification": "Pour instruire l'autorisation préalable ou la carte pro, le CNAPS consulte le bulletin n°2 du casier judiciaire (inaccessible au particulier). Base : Livre VI du CSI."
+ },
+ "bc01488e0f": {
+  "answer": 3,
+  "uv": 2,
+  "justification": "Le CNAPS (Conseil National des Activités Privées de Sécurité), établissement public sous tutelle du ministère de l'Intérieur, contrôle et discipline la profession. Base : Livre VI du CSI. (à confirmer)"
+ },
+ "165a80adcc": {
+  "answer": 0,
+  "uv": 2,
+  "justification": "La carte professionnelle est délivrée par le directeur du CNAPS (les anciennes commissions locales CLAC ont été supprimées par la réforme de 2018). (à confirmer)"
  },
  "5a488106de": {
   "answer": 3,
@@ -109,11 +177,40 @@ window.QCU_ANSWERS = {
   "uv": 2,
   "justification": "Les équipements de protection individuelle (EPI) sont fournis gratuitement par l'employeur, tenu d'assurer la sécurité de ses salariés (Code du travail, art. L4121-1 et R4321-4)."
  },
+ "bd44394e3f": {
+  "answer": 4,
+  "uv": 2,
+  "justification": "Les lois sont votées par le Parlement (Assemblée nationale + Sénat) : le Gouvernement propose, le Parlement dispose (art. 24 et 34 de la Constitution). (à confirmer)"
+ },
+ "aee628d7a4": {
+  "answer": 0,
+  "uv": 2,
+  "justification": "Outre l'avertissement, le blâme et l'interdiction temporaire, le CNAPS peut prononcer une pénalité financière : jusqu'à 7 500 € pour une personne physique (150 000 € pour une personne morale). Base : Livre VI du CSI. (à confirmer)"
+ },
+ "d155202991": {
+  "answer": 1,
+  "uv": 2,
+  "justification": "La pénalité financière disciplinaire du CNAPS peut atteindre 7 500 € pour une personne physique. Base : Livre VI du CSI. (à confirmer)"
+ },
+ "c2bc0f6a23": {
+  "answer": 4,
+  "uv": 2,
+  "justification": "Le ressortissant hors Union européenne doit être titulaire d'un titre de séjour depuis au moins 5 ans pour demander la carte pro ou l'entrée en formation. Base : Livre VI du CSI. (à confirmer)"
+ },
+ "03381ff94f": {
+  "answer": 2,
+  "uv": 2,
+  "justification": "L'étranger fournit un extrait d'acte de naissance uniquement si sa pièce d'identité ne mentionne pas ses date et lieu de naissance (pièce justificative complémentaire). (à confirmer)"
+ },
+ "1b37734717": {
+  "answer": 0,
+  "uv": 2,
+  "justification": "La sous-traitance d'une prestation de sécurité est possible selon le Code du commerce, mais dans les limites du Code de la sécurité intérieure : l'entreprise reste responsable et le sous-traitant doit être autorisé. (à confirmer)"
+ },
  "013c11c405": {
   "answer": 3,
   "uv": 2,
-  "justification": "L'employeur doit s'assurer de l'adéquation entre les qualifications de ses agents et les missions confiées. Base : Code de déontologie, Livre VI du CSI.",
-  "intitule": "Les employeurs ont l'obligation:"
+  "justification": "L'employeur doit s'assurer de l'adéquation entre les qualifications de ses agents et les missions confiées. Base : Code de déontologie, Livre VI du CSI."
  },
  "8125109a33": {
   "answer": 2,
@@ -285,6 +382,11 @@ window.QCU_ANSWERS = {
   "uv": 4,
   "justification": "Sur la main courante d'une ronde, on notifie les anomalies constatées, les mesures prises, l'heure et l'agent : toutes les réponses sont bonnes."
  },
+ "7ac0ffb984": {
+  "answer": 0,
+  "uv": 4,
+  "justification": "L'accès d'une personne accompagnée d'un chien guide d'aveugle ou d'assistance est de droit dès que l'agent a reconnu l'animal ; le refuser est discriminatoire (loi du 30 juin 2005). (à confirmer)"
+ },
  "c7ac328e4e": {
   "answer": 3,
   "uv": 4,
@@ -325,10 +427,25 @@ window.QCU_ANSWERS = {
   "uv": 4,
   "justification": "On transmet les consignes à son collègue via l'émetteur-récepteur portatif (radio), moyen rapide et fiable."
  },
+ "e75b0b0615": {
+  "answer": 0,
+  "uv": 4,
+  "justification": "Même pour un récidiviste, l'agent reste professionnel : rappeler à nouveau les consignes et demander d'éteindre la cigarette, sans violence ni humiliation. (à confirmer)"
+ },
+ "d670c345a7": {
+  "answer": 3,
+  "uv": 10,
+  "justification": "Chaîne de télésécurité : Détection – Transmission – Réception – Traitement (– Intervention). (Intitulé à nettoyer : mention « Aucune des autres réponses » collée.) (à confirmer)"
+ },
  "fcf9977a13": {
   "answer": 1,
   "uv": 4,
   "justification": "La chaîne de télésécurité comprend 5 maillons : Détection – Transmission – Réception – Traitement – Intervention."
+ },
+ "6ed9191d5c": {
+  "answer": 4,
+  "uv": 4,
+  "justification": "Sur une main courante papier, la date doit être complète et non ambiguë (ex. « Lundi 30 octobre 2017 ») : les formats abrégés prêtent à confusion. (à confirmer)"
  },
  "d939869737": {
   "answer": 1,
@@ -369,6 +486,11 @@ window.QCU_ANSWERS = {
   "answer": 2,
   "uv": 4,
   "justification": "Pendant que l'agent est en levée de doute, on consulte au PC les consignes intrusion pour ne rien oublier et le guider si besoin."
+ },
+ "c88b3c8329": {
+  "answer": 3,
+  "uv": 8,
+  "justification": "En zone de fabrication alimentaire, l'agent respecte les consignes d'hygiène du site client (charlotte, blouse, sur-chaussures) : la sécurité sanitaire prime. (à confirmer)"
  },
  "3a448c8b6a": {
   "answer": 1,
@@ -461,6 +583,16 @@ window.QCU_ANSWERS = {
   "uv": 5,
   "justification": "Les acteurs de la sécurité privée doivent en priorité aider la justice et les services de police (concours au service public de la sécurité)."
  },
+ "8cbbb2ee2e": {
+  "answer": 4,
+  "uv": 5,
+  "justification": "Le secours à personne prime sur la mission : on s'occupe d'abord de la victime et on demande au PC d'envoyer un autre agent poursuivre la levée de doute. (à confirmer)"
+ },
+ "ecf7782009": {
+  "answer": 1,
+  "uv": 5,
+  "justification": "Toutes ces consignes du permis-feu comptent : dégager les matériaux combustibles, protéger les ouvertures, surveiller les projections, éviter de déclencher la détection. (à confirmer)"
+ },
  "7a551ad4b0": {
   "deleted": true
  },
@@ -473,6 +605,11 @@ window.QCU_ANSWERS = {
   "answer": 0,
   "uv": 5,
   "justification": "À l'arrivée des secours, on peut leur fournir les plans de l'établissement pour faciliter et accélérer leur intervention."
+ },
+ "b67723d0ae": {
+  "answer": 3,
+  "uv": 5,
+  "justification": "RIA = Robinet d'Incendie Armé : point d'eau fixe muni d'un tuyau, pour attaquer un feu naissant. (à confirmer)"
  },
  "c72b8a8921": {
   "answer": 3,
@@ -592,6 +729,11 @@ window.QCU_ANSWERS = {
   "answer": 0,
   "uv": 6,
   "justification": "Dans l'attente des services publics, la personne appréhendée reste sous la responsabilité de l'agent qui l'a appréhendée (surveillance et protection)."
+ },
+ "a36aafabe3": {
+  "answer": 4,
+  "uv": 6,
+  "justification": "Oui : après une appréhension en flagrant délit (art. 73 CPP), l'agent doit remettre sans délai la personne à un officier de police judiciaire — d'où l'appel aux forces de l'ordre. (à confirmer)"
  },
  "c570eaf77e": {
   "answer": 4,
@@ -920,6 +1062,11 @@ window.QCU_ANSWERS = {
   "uv": 8,
   "justification": "Le vol commis par plusieurs personnes (en réunion) est une circonstance aggravante (art. 311-4 du Code pénal)."
  },
+ "4e87af393d": {
+  "answer": 0,
+  "uv": 5,
+  "justification": "La temporisation de l'alarme d'évacuation (UGA) est de 5 minutes maximum : au-delà, l'évacuation générale se déclenche. Ce délai permet la levée de doute. (à confirmer)"
+ },
  "fbf82379f8": {
   "answer": 2,
   "uv": 8,
@@ -935,10 +1082,20 @@ window.QCU_ANSWERS = {
   "uv": 8,
   "justification": "Oui : une bonne présentation (tenue, hygiène, attitude) est nécessaire durant le service — elle véhicule l'image de l'entreprise et inspire le respect."
  },
+ "3b28b01290": {
+  "answer": 0,
+  "uv": 8,
+  "justification": "Le vol n'est juridiquement constitué qu'après le dernier point de paiement : on prévient les collègues pour une appréhension en sortie de caisse. (à confirmer)"
+ },
  "286b712128": {
   "answer": 4,
   "uv": 8,
   "justification": "Consommer sur place sans payer est un vol consommé : on récupère les emballages vides, qui serviront de preuve lors de l'appréhension."
+ },
+ "759a49e7d7": {
+  "answer": 4,
+  "uv": 8,
+  "justification": "Le vol n'est juridiquement constitué qu'après le dernier point de paiement : on prévient les collègues pour une appréhension en sortie de caisse. (à confirmer)"
  },
  "d6c736145d": {
   "answer": 3,
@@ -949,6 +1106,11 @@ window.QCU_ANSWERS = {
   "answer": 0,
   "uv": 8,
   "justification": "Pour une réanimation cardio-pulmonaire, on utilise un DAE (Défibrillateur Automatisé Externe), en complément des compressions thoraciques."
+ },
+ "7800e7235c": {
+  "answer": 4,
+  "uv": 5,
+  "justification": "Les travaux par points chauds doivent cesser au moins 2 heures avant le départ du service de sécurité, pour surveiller un feu couvant : 21h − 2h = 19h. (à confirmer)"
  },
  "f6fbe94359": {
   "answer": 2,
@@ -991,10 +1153,35 @@ window.QCU_ANSWERS = {
  "ce1fa407c8": {
   "deleted": true
  },
+ "d53dd83b24": {
+  "answer": 4,
+  "uv": 2,
+  "justification": "La France est une démocratie représentative : le peuple exerce sa souveraineté par ses représentants élus et par référendum (art. 3 de la Constitution). (à confirmer)"
+ },
  "e8868bf5be": {
   "answer": 1,
   "uv": 8,
   "justification": "La convention collective doit être tenue à la disposition des salariés dans l'entreprise (information sur leurs droits)."
+ },
+ "db1fae842f": {
+  "answer": 2,
+  "uv": 2,
+  "justification": "La devise de la République est « Liberté, Égalité, Fraternité », inscrite à l'art. 2 de la Constitution. (à confirmer)"
+ },
+ "43ce75261d": {
+  "answer": 1,
+  "uv": 2,
+  "justification": "Le français est la langue de la République (art. 2 de la Constitution) : il est obligatoire sur les documents officiels. (à confirmer)"
+ },
+ "c343e5d4b8": {
+  "answer": 1,
+  "uv": 2,
+  "justification": "La liberté de conscience et de religion se traduit en France par la laïcité : l'État est neutre et garantit le libre exercice des cultes (art. 1 de la Constitution, loi de 1905). (à confirmer)"
+ },
+ "2fb27df5d5": {
+  "answer": 2,
+  "uv": 2,
+  "justification": "L'emblème national est le drapeau tricolore bleu, blanc, rouge (art. 2 de la Constitution). (à confirmer)"
  },
  "25a0bb38d7": {
   "answer": 0,
@@ -1045,10 +1232,20 @@ window.QCU_ANSWERS = {
  "3d1a14f826": {
   "deleted": true
  },
+ "5599b58c19": {
+  "answer": 1,
+  "uv": 2,
+  "justification": "Le Sénat, chambre haute du Parlement, siège au Palais du Luxembourg (Paris) ; il représente les collectivités territoriales (art. 24 de la Constitution). (à confirmer)"
+ },
  "65a5fe4d04": {
   "answer": 2,
   "uv": 8,
   "justification": "Il existe plusieurs types de blast : primaire (souffle), secondaire (projectiles), tertiaire (projection du corps) et quaternaire (brûlures, etc.) : toutes les réponses sont exactes."
+ },
+ "3bd37413e3": {
+  "answer": 1,
+  "uv": 2,
+  "justification": "Les libertés et droits fondamentaux garantissent notamment le droit à la vie, à la sûreté, à l'intégrité et à la liberté (DDHC de 1789, Convention européenne des droits de l'Homme). (à confirmer)"
  },
  "c80eaed46b": {
   "answer": 0,
@@ -1059,6 +1256,11 @@ window.QCU_ANSWERS = {
   "answer": 1,
   "uv": 8,
   "justification": "Face à une personne ivre et menaçante en concert, faire appel à l'OPJ (l'ivresse sur la voie/lieu public relève de la police)."
+ },
+ "177a025218": {
+  "answer": 0,
+  "uv": 2,
+  "justification": "Le Palais Bourbon (Paris) abrite l'Assemblée nationale ; à ne pas confondre avec le Palais du Luxembourg, siège du Sénat. (à confirmer)"
  },
  "fe416ae569": {
   "answer": 4,
@@ -1100,6 +1302,16 @@ window.QCU_ANSWERS = {
   "uv": 8,
   "justification": "En arrivant sur le site où il travaille, l'APS se met en tenue (identification, professionnalisme)."
  },
+ "18fff4020d": {
+  "answer": 2,
+  "uv": 2,
+  "justification": "Marianne, figure de la République, est coiffée du bonnet phrygien, symbole de liberté. (à confirmer)"
+ },
+ "c0b0fbe033": {
+  "answer": 3,
+  "uv": 2,
+  "justification": "Le bleu et le rouge sont les couleurs de la ville de Paris, le blanc étant la couleur royale : le drapeau tricolore unit ainsi Paris et la monarchie. (à confirmer)"
+ },
  "737315dd90": {
   "answer": 0,
   "uv": 8,
@@ -1108,15 +1320,12 @@ window.QCU_ANSWERS = {
  "8cba9e3efe": {
   "answer": 3,
   "uv": 8,
-  "justification": "TFP APS = Titre à Finalité Professionnelle Agent de Prévention et de Sécurité.",
-  "intitule": "Que signifient les initiales TFP APS ?",
-  "options": [
-   "Aucune des autres réponses",
-   "Titre à finalité professionnelle Agent Professionnel de Sécurité",
-   "Titre à finalité professionnelle Agent de Proximité et de Sûreté",
-   "Titre à finalité professionnelle Agent de Prévention et de Sécurité",
-   "Sécurité"
-  ]
+  "justification": "TFP APS = Titre à Finalité Professionnelle Agent de Prévention et de Sécurité."
+ },
+ "0e357addd6": {
+  "answer": 1,
+  "uv": 7,
+  "justification": "Le rôle principal du Sauveteur Secouriste du Travail (SST) est de porter les premiers secours à toute victime d'un accident du travail ou d'un malaise, en attendant les secours ; il est aussi acteur de la prévention dans l'entreprise. (à confirmer)"
  },
  "f92d3430b5": {
   "answer": 3,
@@ -1133,10 +1342,25 @@ window.QCU_ANSWERS = {
   "uv": 8,
   "justification": "L'E.C.S. (Équipement de Contrôle et de Signalisation) collecte les informations provenant des DAI (détecteurs automatiques) et des DM (déclencheurs manuels) du SDI."
  },
+ "a755fa474d": {
+  "answer": 0,
+  "uv": 11,
+  "justification": "Pour entrer dans un local avec TGBT, l'habilitation électrique minimale est BS ou BE Manœuvre (opérations/manœuvres simples). (à confirmer)"
+ },
  "13c3e5dd01": {
   "answer": 1,
   "uv": 8,
   "justification": "Les familles de détecteurs sont : optiques (fumée), thermiques (chaleur), de mouvements et microphoniques (bris de vitre)."
+ },
+ "95259cfcc8": {
+  "answer": 3,
+  "uv": 3,
+  "justification": "Face aux attaques verbales, menaces et intimidations : garder son calme et pratiquer le « judo verbal » (reformuler, questionner, utiliser la parole de l'autre) pour désamorcer sans surenchère. (à confirmer)"
+ },
+ "7032873dcf": {
+  "answer": 0,
+  "uv": 2,
+  "justification": "Marianne incarne symboliquement la République française (bustes en mairie, timbres, logo de l'État). (à confirmer)"
  },
  "f94f4d78d1": {
   "answer": 3,
@@ -1405,6 +1629,11 @@ window.QCU_ANSWERS = {
   "uv": 9,
   "justification": "Réponse retenue : l'agent doit être désigné par son employeur, qui engage sa responsabilité (les conditions de même sexe, consentement et contrôle d'un OPJ s'appliquant par ailleurs selon le contexte)."
  },
+ "3559d729d8": {
+  "answer": 4,
+  "uv": 9,
+  "justification": "L'agent réalisant des palpations doit justifier d'une expérience professionnelle dans la sécurité (proposition : 1 an) — durée exacte à vérifier dans le référentiel. (à confirmer)"
+ },
  "aa1959b011": {
   "answer": 3,
   "uv": 9,
@@ -1483,6 +1712,11 @@ window.QCU_ANSWERS = {
   "uv": 9,
   "justification": "Refus de l'inspection visuelle des bagages : rappeler les conditions d'accès prévues pour le concert (l'accès peut être refusé, jamais imposé par la contrainte)."
  },
+ "0ca79ee46d": {
+  "answer": 1,
+  "uv": 10,
+  "justification": "Réponse retenue par le support : la partie législative du Livre VI du CSI. NB : la vidéoprotection est en réalité encadrée par le Livre II du CSI (art. L251 et s.) — à trancher. (à confirmer)"
+ },
  "0bc4644a86": {
   "answer": 1,
   "uv": 10,
@@ -1512,6 +1746,11 @@ window.QCU_ANSWERS = {
   "answer": 4,
   "uv": 10,
   "justification": "Le port du DATI se justifie lorsqu'on effectue une vacation seul/isolé sur un site (protection du travailleur isolé)."
+ },
+ "82dd1e4f74": {
+  "answer": 2,
+  "uv": 10,
+  "justification": "La captation d'image est illégale lorsqu'elle fixe l'image d'une personne se trouvant dans un lieu privé sans son consentement (art. 226-1 du CP). (à confirmer)"
  },
  "5d73c5329b": {
   "answer": 4,
@@ -1605,6 +1844,11 @@ window.QCU_ANSWERS = {
   "answer": 4,
   "uv": 11,
   "justification": "Avant toute action, analyser la réaction des personnes de l'endroit d'où l'individu sort : courir n'est pas en soi une infraction, on évite l'appréhension hâtive."
+ },
+ "a3c1773287": {
+  "answer": 0,
+  "uv": 8,
+  "justification": "Pour partir en ronde, l'APS n'a pas besoin d'emporter le registre des consignes (il reste au PC) ; en revanche lampe, DATI, pass et radio sont nécessaires. (à confirmer)"
  },
  "cb69b88123": {
   "answer": 1,
@@ -1825,260 +2069,5 @@ window.QCU_ANSWERS = {
  },
  "f993204308": {
   "deleted": true
- },
- "187a3b626d": {
-  "answer": 2,
-  "uv": 2,
-  "justification": "L'agent doit pouvoir présenter à tout moment sa carte professionnelle aux agents du CNAPS et aux forces de l'ordre (police/gendarmerie) qui la contrôlent. Base : Livre VI du CSI. (à confirmer)"
- },
- "b8dca3482c": {
-  "answer": 3,
-  "uv": 2,
-  "justification": "On ne peut devenir formateur en sécurité privée après un retrait de sa carte professionnelle : cette sanction disciplinaire fait perdre la condition de moralité et d'aptitude exigée. Base : Livre VI du CSI. (à confirmer)"
- },
- "c13a16242a": {
-  "answer": 3,
-  "uv": 2,
-  "justification": "L'hymne national est La Marseillaise ; son premier vers est « Allons enfants de la Patrie ». Symbole de la République (art. 2 de la Constitution). (à confirmer)"
- },
- "96d865f8b3": {
-  "answer": 0,
-  "uv": 2,
-  "justification": "L'accès à la carte pro / à la formation exige une connaissance suffisante du français, vérifiée par un test défini par la réglementation (pas une simple attestation ni un diplôme au choix). Base : Livre VI du CSI. (à confirmer)"
- },
- "be87dc4cfa": {
-  "answer": 2,
-  "uv": 2,
-  "justification": "La liberté d'aller et venir est une liberté fondamentale rattachée à la Déclaration des droits de l'Homme et du citoyen de 1789 ; elle limite les prérogatives de l'agent (pas de rétention arbitraire). (à confirmer)"
- },
- "5eea920f62": {
-  "answer": 4,
-  "uv": 2,
-  "justification": "Le Gouvernement détient l'initiative des lois : il prépare et dépose les « projets de loi » (les parlementaires déposent des « propositions de loi »). C'est ensuite le Parlement qui vote. (à confirmer)"
- },
- "e633bb4cfb": {
-  "answer": 4,
-  "uv": 2,
-  "justification": "Le Parlement est bicaméral : Assemblée nationale (députés, suffrage direct) + Sénat (sénateurs, suffrage indirect). Art. 24 de la Constitution. (à confirmer)"
- },
- "9ea87e2f62": {
-  "answer": 0,
-  "uv": 2,
-  "justification": "Le Premier ministre est nommé par le Président de la République, qui met aussi fin à ses fonctions (art. 8 de la Constitution). (à confirmer)"
- },
- "c3f6fb9445": {
-  "answer": 1,
-  "uv": 2,
-  "justification": "Le Président de la République est élu au suffrage universel direct par les citoyens inscrits (art. 6 et 7 de la Constitution). (à confirmer)"
- },
- "fcfabe10b2": {
-  "answer": 1,
-  "uv": 2,
-  "justification": "Parmi les propositions, le sabotage est une atteinte aux intérêts fondamentaux de la nation (art. 411-9 du Code pénal). (à confirmer)"
- },
- "e1b52db392": {
-  "answer": 2,
-  "uv": 2,
-  "justification": "Le candidat français fournit notamment un extrait de casier judiciaire bulletin n°3, seul bulletin qu'un particulier peut demander le concernant ; le CNAPS, lui, consulte le bulletin n°2. (à confirmer)"
- },
- "86647399f3": {
-  "answer": 3,
-  "uv": 2,
-  "justification": "Hiérarchie des normes (pyramide de Kelsen) : Constitution > Loi > Décret > Arrêté > Circulaire ; chaque niveau doit respecter le niveau supérieur. (à confirmer)"
- },
- "bc01488e0f": {
-  "answer": 3,
-  "uv": 2,
-  "justification": "Le CNAPS (Conseil National des Activités Privées de Sécurité), établissement public sous tutelle du ministère de l'Intérieur, contrôle et discipline la profession. Base : Livre VI du CSI. (à confirmer)"
- },
- "165a80adcc": {
-  "answer": 0,
-  "uv": 2,
-  "justification": "La carte professionnelle est délivrée par le directeur du CNAPS (les anciennes commissions locales CLAC ont été supprimées par la réforme de 2018). (à confirmer)"
- },
- "bd44394e3f": {
-  "answer": 4,
-  "uv": 2,
-  "justification": "Les lois sont votées par le Parlement (Assemblée nationale + Sénat) : le Gouvernement propose, le Parlement dispose (art. 24 et 34 de la Constitution). (à confirmer)"
- },
- "aee628d7a4": {
-  "answer": 0,
-  "uv": 2,
-  "justification": "Outre l'avertissement, le blâme et l'interdiction temporaire, le CNAPS peut prononcer une pénalité financière : jusqu'à 7 500 € pour une personne physique (150 000 € pour une personne morale). Base : Livre VI du CSI. (à confirmer)"
- },
- "d155202991": {
-  "answer": 1,
-  "uv": 2,
-  "justification": "La pénalité financière disciplinaire du CNAPS peut atteindre 7 500 € pour une personne physique. Base : Livre VI du CSI. (à confirmer)"
- },
- "c2bc0f6a23": {
-  "answer": 4,
-  "uv": 2,
-  "justification": "Le ressortissant hors Union européenne doit être titulaire d'un titre de séjour depuis au moins 5 ans pour demander la carte pro ou l'entrée en formation. Base : Livre VI du CSI. (à confirmer)"
- },
- "03381ff94f": {
-  "answer": 2,
-  "uv": 2,
-  "justification": "L'étranger fournit un extrait d'acte de naissance uniquement si sa pièce d'identité ne mentionne pas ses date et lieu de naissance (pièce justificative complémentaire). (à confirmer)"
- },
- "1b37734717": {
-  "answer": 0,
-  "uv": 2,
-  "justification": "La sous-traitance d'une prestation de sécurité est possible selon le Code du commerce, mais dans les limites du Code de la sécurité intérieure : l'entreprise reste responsable et le sous-traitant doit être autorisé. (à confirmer)"
- },
- "7ac0ffb984": {
-  "answer": 0,
-  "uv": 4,
-  "justification": "L'accès d'une personne accompagnée d'un chien guide d'aveugle ou d'assistance est de droit dès que l'agent a reconnu l'animal ; le refuser est discriminatoire (loi du 30 juin 2005). (à confirmer)"
- },
- "e75b0b0615": {
-  "answer": 0,
-  "uv": 4,
-  "justification": "Même pour un récidiviste, l'agent reste professionnel : rappeler à nouveau les consignes et demander d'éteindre la cigarette, sans violence ni humiliation. (à confirmer)"
- },
- "d670c345a7": {
-  "answer": 3,
-  "uv": 10,
-  "justification": "Chaîne de télésécurité : Détection – Transmission – Réception – Traitement (– Intervention). (Intitulé à nettoyer : mention « Aucune des autres réponses » collée.) (à confirmer)"
- },
- "6ed9191d5c": {
-  "answer": 4,
-  "uv": 4,
-  "justification": "Sur une main courante papier, la date doit être complète et non ambiguë (ex. « Lundi 30 octobre 2017 ») : les formats abrégés prêtent à confusion. (à confirmer)"
- },
- "c88b3c8329": {
-  "answer": 3,
-  "uv": 8,
-  "justification": "En zone de fabrication alimentaire, l'agent respecte les consignes d'hygiène du site client (charlotte, blouse, sur-chaussures) : la sécurité sanitaire prime. (à confirmer)"
- },
- "8cbbb2ee2e": {
-  "answer": 4,
-  "uv": 5,
-  "justification": "Le secours à personne prime sur la mission : on s'occupe d'abord de la victime et on demande au PC d'envoyer un autre agent poursuivre la levée de doute. (à confirmer)"
- },
- "ecf7782009": {
-  "answer": 1,
-  "uv": 5,
-  "justification": "Toutes ces consignes du permis-feu comptent : dégager les matériaux combustibles, protéger les ouvertures, surveiller les projections, éviter de déclencher la détection. (à confirmer)"
- },
- "b67723d0ae": {
-  "answer": 3,
-  "uv": 5,
-  "justification": "RIA = Robinet d'Incendie Armé : point d'eau fixe muni d'un tuyau, pour attaquer un feu naissant. (à confirmer)"
- },
- "a36aafabe3": {
-  "answer": 4,
-  "uv": 6,
-  "justification": "Oui : après une appréhension en flagrant délit (art. 73 CPP), l'agent doit remettre sans délai la personne à un officier de police judiciaire — d'où l'appel aux forces de l'ordre. (à confirmer)"
- },
- "4e87af393d": {
-  "answer": 0,
-  "uv": 5,
-  "justification": "La temporisation de l'alarme d'évacuation (UGA) est de 5 minutes maximum : au-delà, l'évacuation générale se déclenche. Ce délai permet la levée de doute. (à confirmer)"
- },
- "3b28b01290": {
-  "answer": 0,
-  "uv": 8,
-  "justification": "Le vol n'est juridiquement constitué qu'après le dernier point de paiement : on prévient les collègues pour une appréhension en sortie de caisse. (à confirmer)"
- },
- "759a49e7d7": {
-  "answer": 4,
-  "uv": 8,
-  "justification": "Le vol n'est juridiquement constitué qu'après le dernier point de paiement : on prévient les collègues pour une appréhension en sortie de caisse. (à confirmer)"
- },
- "7800e7235c": {
-  "answer": 4,
-  "uv": 5,
-  "justification": "Les travaux par points chauds doivent cesser au moins 2 heures avant le départ du service de sécurité, pour surveiller un feu couvant : 21h − 2h = 19h. (à confirmer)"
- },
- "db1fae842f": {
-  "answer": 2,
-  "uv": 2,
-  "justification": "La devise de la République est « Liberté, Égalité, Fraternité », inscrite à l'art. 2 de la Constitution. (à confirmer)"
- },
- "43ce75261d": {
-  "answer": 1,
-  "uv": 2,
-  "justification": "Le français est la langue de la République (art. 2 de la Constitution) : il est obligatoire sur les documents officiels. (à confirmer)"
- },
- "c343e5d4b8": {
-  "answer": 1,
-  "uv": 2,
-  "justification": "La liberté de conscience et de religion se traduit en France par la laïcité : l'État est neutre et garantit le libre exercice des cultes (art. 1 de la Constitution, loi de 1905). (à confirmer)"
- },
- "d53dd83b24": {
-  "answer": 4,
-  "uv": 2,
-  "justification": "La France est une démocratie représentative : le peuple exerce sa souveraineté par ses représentants élus et par référendum (art. 3 de la Constitution). (à confirmer)"
- },
- "2fb27df5d5": {
-  "answer": 2,
-  "uv": 2,
-  "justification": "L'emblème national est le drapeau tricolore bleu, blanc, rouge (art. 2 de la Constitution). (à confirmer)"
- },
- "5599b58c19": {
-  "answer": 1,
-  "uv": 2,
-  "justification": "Le Sénat, chambre haute du Parlement, siège au Palais du Luxembourg (Paris) ; il représente les collectivités territoriales (art. 24 de la Constitution). (à confirmer)"
- },
- "3bd37413e3": {
-  "answer": 1,
-  "uv": 2,
-  "justification": "Les libertés et droits fondamentaux garantissent notamment le droit à la vie, à la sûreté, à l'intégrité et à la liberté (DDHC de 1789, Convention européenne des droits de l'Homme). (à confirmer)"
- },
- "177a025218": {
-  "answer": 0,
-  "uv": 2,
-  "justification": "Le Palais Bourbon (Paris) abrite l'Assemblée nationale ; à ne pas confondre avec le Palais du Luxembourg, siège du Sénat. (à confirmer)"
- },
- "18fff4020d": {
-  "answer": 2,
-  "uv": 2,
-  "justification": "Marianne, figure de la République, est coiffée du bonnet phrygien, symbole de liberté. (à confirmer)"
- },
- "c0b0fbe033": {
-  "answer": 3,
-  "uv": 2,
-  "justification": "Le bleu et le rouge sont les couleurs de la ville de Paris, le blanc étant la couleur royale : le drapeau tricolore unit ainsi Paris et la monarchie. (à confirmer)"
- },
- "0e357addd6": {
-  "answer": 1,
-  "uv": 7,
-  "justification": "Le rôle principal du Sauveteur Secouriste du Travail (SST) est de porter les premiers secours à toute victime d'un accident du travail ou d'un malaise, en attendant les secours ; il est aussi acteur de la prévention dans l'entreprise. (à confirmer)"
- },
- "a755fa474d": {
-  "answer": 0,
-  "uv": 11,
-  "justification": "Pour entrer dans un local avec TGBT, l'habilitation électrique minimale est BS ou BE Manœuvre (opérations/manœuvres simples). (à confirmer)"
- },
- "95259cfcc8": {
-  "answer": 3,
-  "uv": 3,
-  "justification": "Face aux attaques verbales, menaces et intimidations : garder son calme et pratiquer le « judo verbal » (reformuler, questionner, utiliser la parole de l'autre) pour désamorcer sans surenchère. (à confirmer)"
- },
- "7032873dcf": {
-  "answer": 0,
-  "uv": 2,
-  "justification": "Marianne incarne symboliquement la République française (bustes en mairie, timbres, logo de l'État). (à confirmer)"
- },
- "3559d729d8": {
-  "answer": 4,
-  "uv": 9,
-  "justification": "L'agent réalisant des palpations doit justifier d'une expérience professionnelle dans la sécurité (proposition : 1 an) — durée exacte à vérifier dans le référentiel. (à confirmer)"
- },
- "0ca79ee46d": {
-  "answer": 1,
-  "uv": 10,
-  "justification": "Réponse retenue par le support : la partie législative du Livre VI du CSI. NB : la vidéoprotection est en réalité encadrée par le Livre II du CSI (art. L251 et s.) — à trancher. (à confirmer)"
- },
- "82dd1e4f74": {
-  "answer": 2,
-  "uv": 10,
-  "justification": "La captation d'image est illégale lorsqu'elle fixe l'image d'une personne se trouvant dans un lieu privé sans son consentement (art. 226-1 du CP). (à confirmer)"
- },
- "a3c1773287": {
-  "answer": 0,
-  "uv": 8,
-  "justification": "Pour partir en ronde, l'APS n'a pas besoin d'emporter le registre des consignes (il reste au PC) ; en revanche lampe, DATI, pass et radio sont nécessaires. (à confirmer)"
  }
 };
