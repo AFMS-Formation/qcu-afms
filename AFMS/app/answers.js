@@ -1628,9 +1628,9 @@ window.QCU_ANSWERS = {
   "justification": "Réponse retenue : l'agent doit être désigné par son employeur, qui engage sa responsabilité (les conditions de même sexe, consentement et contrôle d'un OPJ s'appliquant par ailleurs selon le contexte)."
  },
  "3559d729d8": {
-  "answer": 4,
+  "answer": 1,
   "uv": 9,
-  "justification": "L'agent réalisant des palpations doit justifier d'une expérience professionnelle dans la sécurité (proposition : 1 an) — durée exacte à vérifier dans le référentiel. (à confirmer)"
+  "justification": "L'agent réalisant des palpations ne doit pas justifier d'une expérience, s'il a sa carte professionnelle il peut palper selon les règles."
  },
  "aa1959b011": {
   "answer": 3,
