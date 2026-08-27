@@ -1546,7 +1546,14 @@ window.QCU_ANSWERS = {
  "f1f9214fd0": {
   "answer": 2,
   "uv": 9,
-  "justification": "Oui : l'autorité de police peut imposer un service d'ordre à l'organisateur si elle estime insuffisantes les mesures prévues (manifestation sportive)."
+  "justification": "Oui : l'autorité de police peut imposer un service d'ordre à l'organisateur si elle estime insuffisantes les mesures prévues (manifestation sportive).",
+  "options": [
+   "Non, si la manifestation est inférieure à 1500 personnes",
+   "Aucune des autres réponses",
+   "Oui, si elle estime insuffisantes les mesures envisagées par les organisateurs",
+   "Non si l'État d'urgence attentat n'est pas décrété",
+   "Oui, pour les manifestations de plus de 5000 personnes"
+  ]
  },
  "765e235aa6": {
   "answer": 3,
