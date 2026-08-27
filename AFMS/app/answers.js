@@ -1587,7 +1587,14 @@ window.QCU_ANSWERS = {
  "ebce098b76": {
   "answer": 2,
   "uv": 9,
-  "justification": "« Sous le contrôle d'un OPJ » signifie qu'un OPJ est désigné par le préfet et placé en situation d'astreinte (sa présence physique permanente n'est pas exigée)."
+  "justification": "« Sous le contrôle d'un OPJ » signifie qu'un OPJ est désigné par le préfet et placé en situation d'astreinte (sa présence physique permanente n'est pas exigée).",
+  "options": [
+   "Qu'un nombre d'OPJ proportionné au nombre d'agents doit être présent",
+   "Qu'un OPJ doit être obligatoirement présent sur les lieux de la manifestation",
+   "Désignation d'un OPJ par le Préfet et sa situation d'astreinte",
+   "Aucune des autres réponses",
+   "Qu'un OPJ peut désigner un Agent de Police judiciaire adjoint pour le représenter"
+  ]
  },
  "360d3e6ba9": {
   "answer": 1,
@@ -1986,9 +1993,7 @@ window.QCU_ANSWERS = {
   "justification": "On demande au personnel de l'organisateur de se mettre en retrait pour pouvoir désamorcer le conflit (retirer un des protagonistes)."
  },
  "f92bf2fb64": {
-  "answer": 0,
-  "uv": 12,
-  "justification": "Face à un client dont le titre d'accès ne passe pas : l'écouter et le diriger vers le service chargé des litiges."
+  "deleted": true
  },
  "78728853e1": {
   "answer": 3,
