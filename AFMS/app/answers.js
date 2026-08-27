@@ -1761,9 +1761,16 @@ window.QCU_ANSWERS = {
   "justification": "Le port du DATI se justifie lorsqu'on effectue une vacation seul/isolé sur un site (protection du travailleur isolé)."
  },
  "82dd1e4f74": {
-  "answer": 2,
+  "answer": 3,
   "uv": 10,
-  "justification": "La captation d'image est illégale lorsqu'elle fixe l'image d'une personne se trouvant dans un lieu privé sans son consentement (art. 226-1 du CP). (à confirmer)"
+  "justification": "Seul la transmission d'une image peut revêtir un caractère illégal",
+  "options": [
+   "Quand l'image est fixée sans le consentement d'une personne se trouvant dans un lieu public",
+   "Quand l'image est fixée sans le consentement d'une personne se trouvant dans un lieu public ou privé",
+   "Quand l'image est fixée sans le consentement d'une personne se trouvant dans un lieu privé",
+   "Seul la transmission d'une image peut revêtir un caractère illégal",
+   "Aucune des réponses est bonne"
+  ]
  },
  "5d73c5329b": {
   "answer": 4,
