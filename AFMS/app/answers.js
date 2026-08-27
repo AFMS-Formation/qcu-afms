@@ -1947,9 +1947,7 @@ window.QCU_ANSWERS = {
   "justification": "Facteur aggravant du risque : des billets vendus au dernier moment sans places réservées (afflux et placement non maîtrisés)."
  },
  "46726d97b2": {
-  "answer": 2,
-  "uv": 12,
-  "justification": "Facteur aggravant : des billets vendus au dernier moment sans places réservées. (Question mal découpée à l'extraction — doublon possible à supprimer via le filtre 🔁.)"
+  "deleted": true
  },
  "f039aadc64": {
   "answer": 3,
