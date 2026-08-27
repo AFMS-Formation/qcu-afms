@@ -78,9 +78,9 @@ window.QCU_ANSWERS = {
   "justification": "La formation de maintien et d'actualisation des compétences (MAC), nécessaire au renouvellement, est à la charge de l'employeur au titre de la formation professionnelle continue (Code du travail)."
  },
  "be87dc4cfa": {
-  "answer": 2,
+  "answer": 0,
   "uv": 2,
-  "justification": "La liberté d'aller et venir est une liberté fondamentale rattachée à la Déclaration des droits de l'Homme et du citoyen de 1789 ; elle limite les prérogatives de l'agent (pas de rétention arbitraire). (à confirmer)"
+  "justification": "La liberté d'aller et venir est une liberté fondamentale rattachée à la Déclaration des droits de l'Homme et du citoyen de 1789 et son article 13; elle limite les prérogatives de l'agent (pas de rétention arbitraire)."
  },
  "5eea920f62": {
   "answer": 4,
