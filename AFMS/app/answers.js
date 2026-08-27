@@ -1605,9 +1605,7 @@ window.QCU_ANSWERS = {
   "justification": "« Sous le contrôle d'un OPJ » = un OPJ désigné par le préfet, en situation d'astreinte (présence physique non exigée)."
  },
  "6f91d5de85": {
-  "answer": 2,
-  "uv": 9,
-  "justification": "Rassemblement festif de 500 personnes : palpation par une personne de même sexe, avec le consentement exprès de l'intéressé, sous le contrôle d'un OPJ désigné par le préfet."
+  "deleted": true
  },
  "2b3dafe165": {
   "answer": 4,
