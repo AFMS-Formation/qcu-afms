@@ -282,6 +282,27 @@ function exportAnswers(){
   URL.revokeObjectURL(a.href);
 }
 
+/* recharge tout depuis answers.js publié : vide le cache local de CE navigateur.
+   À utiliser après avoir publié answers.js (tout y est déjà : réponses, suppressions,
+   ajouts, justifications). Double-clic de sécurité (pas de confirm(), peu fiable ici). */
+let _reloadArmed=false, _reloadTimer=null;
+function reloadFromFile(){
+  const btn=$("#btn-reload");
+  if(!_reloadArmed){
+    _reloadArmed=true;
+    btn.dataset.label = btn.textContent;
+    btn.textContent = "⚠ Confirmer — efface le cache local";
+    btn.style.color = "var(--ko)";
+    _reloadTimer = setTimeout(()=>{ _reloadArmed=false; btn.textContent=btn.dataset.label; btn.style.color=""; }, 6000);
+    return;
+  }
+  clearTimeout(_reloadTimer); _reloadArmed=false;
+  localStorage.removeItem(LS_KEY);      // éditions (réponses/justif/textes)
+  localStorage.removeItem(DELETED_LS);  // suppressions (relues depuis le fichier)
+  localStorage.removeItem(CUSTOM_LS);   // ajouts (relus depuis le fichier)
+  location.reload();
+}
+
 function renderAccessCodes(){
   const lib=window.QCU_ACCESS_LIB, cfg=window.QCU_ACCESS||{};
   if(!lib || !cfg.enabled || !(window.crypto&&crypto.subtle)) return;
@@ -315,6 +336,7 @@ function init(){
     const e=edits[q.id]||{}; delete e.intitule; delete e.options; edits[q.id]=e;
     localStorage.setItem(LS_KEY,JSON.stringify(edits)); render(); };
   $("#btn-export").onclick=exportAnswers;
+  $("#btn-reload").onclick=reloadFromFile;
   $("#btn-new").onclick=newQuestion;
   $("#btn-del").onclick=deleteCurrent;
   $("#btn-restore").onclick=restoreCurrent;
