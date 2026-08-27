@@ -1670,9 +1670,9 @@ window.QCU_ANSWERS = {
   "justification": "La palpation entre sexes différents est interdite : une agente vérifie un homme au magnétomètre (contrôle sans contact)."
  },
  "a6e96b497f": {
-  "answer": 4,
+  "answer": 1,
   "uv": 9,
-  "justification": "La palpation et la fouille entre sexes différents sont interdites : aucune des méthodes proposées n'est admise (recourir à une agente ou au magnétomètre). (à confirmer)"
+  "justification": "La palpation et la fouille entre sexes différents sont interdites : néanmoins l'APS peut procéder au contrôle visuel des bagages."
  },
  "af5a3f3dd0": {
   "answer": 0,
