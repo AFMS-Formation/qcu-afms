@@ -14,7 +14,7 @@ d'une banque de questions extraite des supports de formation.
 | | Lien | Pour qui |
 |---|---|---|
 | **Quiz** | https://qcu-afms.netlify.app | Les candidats / apprenants |
-| **Console de validation** | https://qcu-afms.netlify.app/admin.html | Le formateur (édition des réponses) |
+| **Console de validation** | https://afms-qcu.accueil-ae4.workers.dev/admin.html | Le formateur (édition des réponses) |
 
 
 ## ✨ Ce que fait l'app
