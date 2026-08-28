@@ -210,8 +210,7 @@ window.QCU_ANSWERS = {
  "013c11c405": {
   "answer": 3,
   "uv": 2,
-  "justification": "L'employeur doit s'assurer de l'adéquation entre les qualifications de ses agents et les missions confiées. Base : Code de déontologie, Livre VI du CSI.",
-  "intitule": "Les employeurs ont l'obligation:"
+  "justification": "L'employeur doit s'assurer de l'adéquation entre les qualifications de ses agents et les missions confiées. Base : Code de déontologie, Livre VI du CSI."
  },
  "8125109a33": {
   "answer": 2,
@@ -436,15 +435,7 @@ window.QCU_ANSWERS = {
  "d670c345a7": {
   "answer": 3,
   "uv": 10,
-  "justification": "Chaîne de télésécurité : Détection – Transmission – Réception – Traitement – Intervention.",
-  "intitule": "Quelle est la composition de la chaine de télésécurité ?",
-  "options": [
-   "Déclenchement - Lever de doute - Police - Main courante",
-   "Observation - Réglementation - Validation - Action",
-   "Veille - Repérage - Preuve - Formalisation",
-   "Détection - Transmission - Réception - Traitement - Intervention",
-   "Aucune des réponses"
-  ]
+  "justification": "Chaîne de télésécurité : Détection – Transmission – Réception – Traitement – Intervention."
  },
  "fcf9977a13": {
   "answer": 1,
@@ -618,14 +609,7 @@ window.QCU_ANSWERS = {
  "b67723d0ae": {
   "answer": 3,
   "uv": 5,
-  "justification": "RIA = Robinet d'Incendie Armé : point d'eau fixe muni d'un tuyau, pour attaquer un feu naissant. (à confirmer)",
-  "options": [
-   "Robinet d'incendie animé",
-   "Robinet d'intervention alimenté",
-   "Robinet d'incident Armé",
-   "Robinet d'incendie Armé",
-   "Aucune des réponses"
-  ]
+  "justification": "RIA = Robinet d'Incendie Armé : point d'eau fixe muni d'un tuyau, pour attaquer un feu naissant. (à confirmer)"
  },
  "c72b8a8921": {
   "deleted": true
@@ -633,14 +617,7 @@ window.QCU_ANSWERS = {
  "1ef70ababd": {
   "answer": 4,
   "uv": 5,
-  "justification": "Le comburant (généralement l'oxygène de l'air) est l'un des trois côtés du triangle du feu, avec le combustible et l'énergie d'activation.",
-  "options": [
-   "Aucune des autres réponses",
-   "La conduction",
-   "Le refroidissement",
-   "La combustion",
-   "Le comburant"
-  ]
+  "justification": "Le comburant (généralement l'oxygène de l'air) est l'un des trois côtés du triangle du feu, avec le combustible et l'énergie d'activation."
  },
  "eabb5eafb5": {
   "answer": 3,
@@ -701,14 +678,7 @@ window.QCU_ANSWERS = {
  "4e79b0e5ae": {
   "answer": 0,
   "uv": 5,
-  "justification": "Un délit est flagrant s'il se commet actuellement (ou vient de se commettre) : c'est ce qui ouvre le droit d'appréhension de l'article 73 du CPP.",
-  "options": [
-   "Le délit se commet actuellement",
-   "La personne discute avec un agent de sécurité incendie",
-   "Aucune des autres réponses",
-   "La personne est poursuivie par la rumeur publique",
-   "La personne gare sa voiture sur une place"
-  ]
+  "justification": "Un délit est flagrant s'il se commet actuellement (ou vient de se commettre) : c'est ce qui ouvre le droit d'appréhension de l'article 73 du CPP."
  },
  "cc27af71f3": {
   "answer": 0,
@@ -728,14 +698,7 @@ window.QCU_ANSWERS = {
  "b8dc955600": {
   "answer": 2,
   "uv": 5,
-  "justification": "Entre une détection intrusion et une détection incendie simultanées, on privilégie la levée de doute incendie (danger potentiel supérieur).",
-  "options": [
-   "La plus proche du PCS",
-   "Lalarme intrusion",
-   "L'alarme incendie",
-   "La plus proche de l'agent rondier",
-   "Aucune des autres réponses"
-  ]
+  "justification": "Entre une détection intrusion et une détection incendie simultanées, on privilégie la levée de doute incendie (danger potentiel supérieur)."
  },
  "a2d4c9fa25": {
   "answer": 2,
@@ -745,8 +708,7 @@ window.QCU_ANSWERS = {
  "4abf14e44f": {
   "answer": 2,
   "uv": 6,
-  "justification": "Aucune des autres : le droit d'appréhension découle de l'article 73 du Code de procédure pénale, qui n'est pas dans la liste proposée.",
-  "intitule": "Au titre de quel article de loi un agent de prévention et de sécurité peut-il appréhender un individu ?"
+  "justification": "Aucune des autres : le droit d'appréhension découle de l'article 73 du Code de procédure pénale, qui n'est pas dans la liste proposée."
  },
  "d98648ac8b": {
   "answer": 0,
@@ -903,26 +865,12 @@ window.QCU_ANSWERS = {
  "e0906b8706": {
   "answer": 1,
   "uv": 6,
-  "justification": "Face à une personne qui se débat lors d'une appréhension légale, l'agent peut, dans un premier temps, utiliser la force strictement nécessaire au but recherché (proportionnalité).",
-  "options": [
-   "De menotter la personne",
-   "Utiliser la force strictement nécessaire au but recherché",
-   "D'utiliser la violence",
-   "Aucune des autres réponses",
-   "D'utiliser tous les moyens"
-  ]
+  "justification": "Face à une personne qui se débat lors d'une appréhension légale, l'agent peut, dans un premier temps, utiliser la force strictement nécessaire au but recherché (proportionnalité)."
  },
  "fe914f30cb": {
   "answer": 2,
   "uv": 6,
-  "justification": "Agent pré-vol : d'abord aviser le PC pour organiser l'appréhension en sortie sans achat (le vol n'est constitué qu'au passage sans paiement).",
-  "options": [
-   "Aucune des autres réponses",
-   "Je le laisse faire car ce n'est pas mon problème",
-   "J'avise le PC pour qu'il mette en place une équipe pour l'appréhender en cas de sortie sans achat",
-   "J'appelle directement la police délit",
-   "Je vais vers lui et l'appréhende dans le magasin car je l'ai pris en flagrant"
-  ]
+  "justification": "Agent pré-vol : d'abord aviser le PC pour organiser l'appréhension en sortie sans achat (le vol n'est constitué qu'au passage sans paiement)."
  },
  "0fca091993": {
   "answer": 1,
@@ -957,14 +905,7 @@ window.QCU_ANSWERS = {
  "82e5a90989": {
   "answer": 3,
   "uv": 7,
-  "justification": "Face à une explosion imminente (grenade), le premier réflexe est de s'allonger au sol, à plat ventre, face contre terre, pour se protéger du souffle et des éclats.",
-  "options": [
-   "Sauter à plat ventre sur la grenade pour protéger les autres",
-   "Se tenir debout derrière une cloison vitrée",
-   "Relancer la grenade à l'envoyeur",
-   "S'allonger face contre sol",
-   "Aucune des autres réponses"
-  ]
+  "justification": "Face à une explosion imminente (grenade), le premier réflexe est de s'allonger au sol, à plat ventre, face contre terre, pour se protéger du souffle et des éclats."
  },
  "362533feb6": {
   "answer": 3,
@@ -1203,14 +1144,7 @@ window.QCU_ANSWERS = {
  "31b58d32f7": {
   "answer": 2,
   "uv": 8,
-  "justification": "L'évaluation des risques professionnels est répertoriée dans le Document Unique (DUERP), obligatoire dans toute entreprise (art. R4121-1 du Code du travail).",
-  "options": [
-   "Aucune des autres réponses",
-   "Le document de santé et de protection des salariés",
-   "Le document unique",
-   "Le document des dangers",
-   "Le document des risques"
-  ]
+  "justification": "L'évaluation des risques professionnels est répertoriée dans le Document Unique (DUERP), obligatoire dans toute entreprise (art. R4121-1 du Code du travail)."
  },
  "ce1fa407c8": {
   "deleted": true
@@ -1382,15 +1316,7 @@ window.QCU_ANSWERS = {
  "8cba9e3efe": {
   "answer": 3,
   "uv": 8,
-  "justification": "TFP APS = Titre à Finalité Professionnelle Agent de Prévention et de Sécurité.",
-  "intitule": "Que signifient les initiales TFP APS ?",
-  "options": [
-   "Aucune des autres réponses",
-   "Titre à finalité professionnelle Agent Professionnel de Sécurité",
-   "Titre à finalité professionnelle Agent de Proximité et de Sûreté",
-   "Titre à finalité professionnelle Agent de Prévention et de Sécurité",
-   "Titre à finalité professionnelle Agent Privé de Sécurité"
-  ]
+  "justification": "TFP APS = Titre à Finalité Professionnelle Agent de Prévention et de Sécurité."
  },
  "0e357addd6": {
   "answer": 1,
@@ -1498,14 +1424,7 @@ window.QCU_ANSWERS = {
  "71bd0de400": {
   "answer": 1,
   "uv": 8,
-  "justification": "Au PC, on dépêche le rondier (déjà sur le terrain) sur le lieu de l'alarme pour la levée de doute, et on reste au PC pour coordonner.",
-  "options": [
-   "Vous effectuez vous-même la levée de doute",
-   "Vous demandez à votre collègue de se rendre sur le lieu prédis du déclenchement de l'alarme pour effectuer la levée de doute",
-   "Aucune des autres réponses",
-   "Vous attendez que votre collègue finisse sa ronde pour intervenir",
-   "Vous rejoignez au plus vite votre collègue pour intervenir plus efficacement"
-  ]
+  "justification": "Au PC, on dépêche le rondier (déjà sur le terrain) sur le lieu de l'alarme pour la levée de doute, et on reste au PC pour coordonner."
  },
  "92cc70ad6d": {
   "answer": 0,
@@ -1586,9 +1505,9 @@ window.QCU_ANSWERS = {
   "justification": "Palper, c'est passer les mains par-dessus les vêtements pour vérifier l'absence d'objets dangereux — sans fouille du corps ni des poches."
  },
  "8db504b81f": {
-  "answer": 3,
+  "answer": 4,
   "uv": 9,
-  "justification": "Pour un événement récréatif de plus de 300 personnes, l'agrément de palpation est délivré par le préfet."
+  "justification": "Pour un événement récréatif de plus de 300 personnes, l'agrément de palpation est délivré par le CNAPS"
  },
  "eb3eeff893": {
   "answer": 2,
@@ -1621,14 +1540,7 @@ window.QCU_ANSWERS = {
  "f1f9214fd0": {
   "answer": 2,
   "uv": 9,
-  "justification": "Oui : l'autorité de police peut imposer un service d'ordre à l'organisateur si elle estime insuffisantes les mesures prévues (manifestation sportive).",
-  "options": [
-   "Non, si la manifestation est inférieure à 1500 personnes",
-   "Aucune des autres réponses",
-   "Oui, si elle estime insuffisantes les mesures envisagées par les organisateurs",
-   "Non si l'État d'urgence attentat n'est pas décrété",
-   "Oui, pour les manifestations de plus de 5000 personnes"
-  ]
+  "justification": "Oui : l'autorité de police peut imposer un service d'ordre à l'organisateur si elle estime insuffisantes les mesures prévues (manifestation sportive)."
  },
  "765e235aa6": {
   "deleted": true
@@ -1639,8 +1551,7 @@ window.QCU_ANSWERS = {
  "4ca4dc5494": {
   "answer": 4,
   "uv": 9,
-  "justification": "L'article R211-23 du CSI impose de doter les membres du service d'ordre d'un signe distinctif, de moyens de communication avec l'OPJ et de la copie des agréments : toutes les réponses sont exactes.",
-  "intitule": "La partie réglementaire du CSI (R211-23) impose aux organisateurs de doter les membres de leur service d'ordre (pour être agréé afin de procéder aux palpations de sécurité ainsi qu'à l'inspection visuelle et à la fouille des bagages):"
+  "justification": "L'article R211-23 du CSI impose de doter les membres du service d'ordre d'un signe distinctif, de moyens de communication avec l'OPJ et de la copie des agréments : toutes les réponses sont exactes."
  },
  "981a083c14": {
   "answer": 3,
@@ -1660,14 +1571,7 @@ window.QCU_ANSWERS = {
  "ebce098b76": {
   "answer": 2,
   "uv": 9,
-  "justification": "« Sous le contrôle d'un OPJ » signifie qu'un OPJ est désigné par le préfet et placé en situation d'astreinte (sa présence physique permanente n'est pas exigée).",
-  "options": [
-   "Qu'un nombre d'OPJ proportionné au nombre d'agents doit être présent",
-   "Qu'un OPJ doit être obligatoirement présent sur les lieux de la manifestation",
-   "Désignation d'un OPJ par le Préfet et sa situation d'astreinte",
-   "Aucune des autres réponses",
-   "Qu'un OPJ peut désigner un Agent de Police judiciaire adjoint pour le représenter"
-  ]
+  "justification": "« Sous le contrôle d'un OPJ » signifie qu'un OPJ est désigné par le préfet et placé en situation d'astreinte (sa présence physique permanente n'est pas exigée)."
  },
  "360d3e6ba9": {
   "answer": 1,
@@ -1836,14 +1740,7 @@ window.QCU_ANSWERS = {
  "82dd1e4f74": {
   "answer": 3,
   "uv": 10,
-  "justification": "Seul la transmission d'une image peut revêtir un caractère illégal",
-  "options": [
-   "Quand l'image est fixée sans le consentement d'une personne se trouvant dans un lieu public",
-   "Quand l'image est fixée sans le consentement d'une personne se trouvant dans un lieu public ou privé",
-   "Quand l'image est fixée sans le consentement d'une personne se trouvant dans un lieu privé",
-   "Seul la transmission d'une image peut revêtir un caractère illégal",
-   "Aucune des réponses est bonne"
-  ]
+  "justification": "Seul la transmission d'une image peut revêtir un caractère illégal"
  },
  "5d73c5329b": {
   "answer": 4,
@@ -2078,8 +1975,7 @@ window.QCU_ANSWERS = {
  "78728853e1": {
   "answer": 3,
   "uv": 14,
-  "justification": "Un plan de prévention est obligatoire dès que la durée prévisible des travaux atteint au moins 400 heures sur 12 mois (ou en cas de travaux dangereux) — art. R4512-7 du Code du travail.",
-  "intitule": "Quand doit-on rédiger un plan de prévention ?"
+  "justification": "Un plan de prévention est obligatoire dès que la durée prévisible des travaux atteint au moins 400 heures sur 12 mois (ou en cas de travaux dangereux) — art. R4512-7 du Code du travail."
  },
  "befe981781": {
   "answer": 1,
