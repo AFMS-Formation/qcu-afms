@@ -1660,9 +1660,9 @@ window.QCU_ANSWERS = {
   "justification": "La palpation et la fouille entre sexes différents sont interdites : néanmoins l'APS peut procéder au contrôle visuel des bagages."
  },
  "af5a3f3dd0": {
-  "answer": 0,
+  "answer": 2,
   "uv": 9,
-  "justification": "En circonstances exceptionnelles, l'agrément pour palper est donné par le préfet du département."
+  "justification": "En circonstances exceptionnelles, l'agrément pour palper est donné par le CNAPS."
  },
  "0b35f0cacd": {
   "answer": 3,
