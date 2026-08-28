@@ -13,7 +13,7 @@ d'une banque de questions extraite des supports de formation.
 
 | | Lien | Pour qui |
 |---|---|---|
-| **Quiz** | https://qcu-afms.netlify.app | Les candidats / apprenants |
+| **Quiz** | https://afms-qcu.accueil-ae4.workers.dev | Les candidats / apprenants |
 | **Console de validation** | https://afms-qcu.accueil-ae4.workers.dev/admin.html | Le formateur (édition des réponses) |
 
 
