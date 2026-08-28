@@ -210,7 +210,8 @@ window.QCU_ANSWERS = {
  "013c11c405": {
   "answer": 3,
   "uv": 2,
-  "justification": "L'employeur doit s'assurer de l'adéquation entre les qualifications de ses agents et les missions confiées. Base : Code de déontologie, Livre VI du CSI."
+  "justification": "L'employeur doit s'assurer de l'adéquation entre les qualifications de ses agents et les missions confiées. Base : Code de déontologie, Livre VI du CSI.",
+  "intitule": "Les employeurs ont l'obligation:"
  },
  "8125109a33": {
   "answer": 2,
@@ -435,7 +436,15 @@ window.QCU_ANSWERS = {
  "d670c345a7": {
   "answer": 3,
   "uv": 10,
-  "justification": "Chaîne de télésécurité : Détection – Transmission – Réception – Traitement (– Intervention). (Intitulé à nettoyer : mention « Aucune des autres réponses » collée.) (à confirmer)"
+  "justification": "Chaîne de télésécurité : Détection – Transmission – Réception – Traitement – Intervention.",
+  "intitule": "Quelle est la composition de la chaine de télésécurité ?",
+  "options": [
+   "Déclenchement - Lever de doute - Police - Main courante",
+   "Observation - Réglementation - Validation - Action",
+   "Veille - Repérage - Preuve - Formalisation",
+   "Détection - Transmission - Réception - Traitement - Intervention",
+   "Aucune des réponses"
+  ]
  },
  "fcf9977a13": {
   "answer": 1,
@@ -609,17 +618,29 @@ window.QCU_ANSWERS = {
  "b67723d0ae": {
   "answer": 3,
   "uv": 5,
-  "justification": "RIA = Robinet d'Incendie Armé : point d'eau fixe muni d'un tuyau, pour attaquer un feu naissant. (à confirmer)"
+  "justification": "RIA = Robinet d'Incendie Armé : point d'eau fixe muni d'un tuyau, pour attaquer un feu naissant. (à confirmer)",
+  "options": [
+   "Robinet d'incendie animé",
+   "Robinet d'intervention alimenté",
+   "Robinet d'incident Armé",
+   "Robinet d'incendie Armé",
+   "Aucune des réponses"
+  ]
  },
  "c72b8a8921": {
-  "answer": 3,
-  "uv": 5,
-  "justification": "R.I.A = Robinet d'Incendie Armé : dispositif fixe de lutte contre un feu naissant (tuyau semi-rigide relié au réseau d'eau)."
+  "deleted": true
  },
  "1ef70ababd": {
   "answer": 4,
   "uv": 5,
-  "justification": "Le comburant (généralement l'oxygène de l'air) est l'un des trois côtés du triangle du feu, avec le combustible et l'énergie d'activation."
+  "justification": "Le comburant (généralement l'oxygène de l'air) est l'un des trois côtés du triangle du feu, avec le combustible et l'énergie d'activation.",
+  "options": [
+   "Aucune des autres réponses",
+   "La conduction",
+   "Le refroidissement",
+   "La combustion",
+   "Le comburant"
+  ]
  },
  "eabb5eafb5": {
   "answer": 3,
@@ -680,7 +701,14 @@ window.QCU_ANSWERS = {
  "4e79b0e5ae": {
   "answer": 0,
   "uv": 5,
-  "justification": "Un délit est flagrant s'il se commet actuellement (ou vient de se commettre) : c'est ce qui ouvre le droit d'appréhension de l'article 73 du CPP."
+  "justification": "Un délit est flagrant s'il se commet actuellement (ou vient de se commettre) : c'est ce qui ouvre le droit d'appréhension de l'article 73 du CPP.",
+  "options": [
+   "Le délit se commet actuellement",
+   "La personne discute avec un agent de sécurité incendie",
+   "Aucune des autres réponses",
+   "La personne est poursuivie par la rumeur publique",
+   "La personne gare sa voiture sur une place"
+  ]
  },
  "cc27af71f3": {
   "answer": 0,
@@ -700,7 +728,14 @@ window.QCU_ANSWERS = {
  "b8dc955600": {
   "answer": 2,
   "uv": 5,
-  "justification": "Entre une détection intrusion et une détection incendie simultanées, on privilégie la levée de doute incendie (danger potentiel supérieur)."
+  "justification": "Entre une détection intrusion et une détection incendie simultanées, on privilégie la levée de doute incendie (danger potentiel supérieur).",
+  "options": [
+   "La plus proche du PCS",
+   "Lalarme intrusion",
+   "L'alarme incendie",
+   "La plus proche de l'agent rondier",
+   "Aucune des autres réponses"
+  ]
  },
  "a2d4c9fa25": {
   "answer": 2,
@@ -868,12 +903,26 @@ window.QCU_ANSWERS = {
  "e0906b8706": {
   "answer": 1,
   "uv": 6,
-  "justification": "Face à une personne qui se débat lors d'une appréhension légale, l'agent peut, dans un premier temps, utiliser la force strictement nécessaire au but recherché (proportionnalité)."
+  "justification": "Face à une personne qui se débat lors d'une appréhension légale, l'agent peut, dans un premier temps, utiliser la force strictement nécessaire au but recherché (proportionnalité).",
+  "options": [
+   "De menotter la personne",
+   "Utiliser la force strictement nécessaire au but recherché",
+   "D'utiliser la violence",
+   "Aucune des autres réponses",
+   "D'utiliser tous les moyens"
+  ]
  },
  "fe914f30cb": {
   "answer": 2,
   "uv": 6,
-  "justification": "Agent pré-vol : d'abord aviser le PC pour organiser l'appréhension en sortie sans achat (le vol n'est constitué qu'au passage sans paiement)."
+  "justification": "Agent pré-vol : d'abord aviser le PC pour organiser l'appréhension en sortie sans achat (le vol n'est constitué qu'au passage sans paiement).",
+  "options": [
+   "Aucune des autres réponses",
+   "Je le laisse faire car ce n'est pas mon problème",
+   "J'avise le PC pour qu'il mette en place une équipe pour l'appréhender en cas de sortie sans achat",
+   "J'appelle directement la police délit",
+   "Je vais vers lui et l'appréhende dans le magasin car je l'ai pris en flagrant"
+  ]
  },
  "0fca091993": {
   "answer": 1,
@@ -908,7 +957,14 @@ window.QCU_ANSWERS = {
  "82e5a90989": {
   "answer": 3,
   "uv": 7,
-  "justification": "Face à une explosion imminente (grenade), le premier réflexe est de s'allonger au sol, à plat ventre, face contre terre, pour se protéger du souffle et des éclats."
+  "justification": "Face à une explosion imminente (grenade), le premier réflexe est de s'allonger au sol, à plat ventre, face contre terre, pour se protéger du souffle et des éclats.",
+  "options": [
+   "Sauter à plat ventre sur la grenade pour protéger les autres",
+   "Se tenir debout derrière une cloison vitrée",
+   "Relancer la grenade à l'envoyeur",
+   "S'allonger face contre sol",
+   "Aucune des autres réponses"
+  ]
  },
  "362533feb6": {
   "answer": 3,
@@ -1084,9 +1140,7 @@ window.QCU_ANSWERS = {
   "justification": "Oui : une bonne présentation (tenue, hygiène, attitude) est nécessaire durant le service — elle véhicule l'image de l'entreprise et inspire le respect."
  },
  "3b28b01290": {
-  "answer": 0,
-  "uv": 8,
-  "justification": "Le vol n'est juridiquement constitué qu'après le dernier point de paiement : on prévient les collègues pour une appréhension en sortie de caisse. (à confirmer)"
+  "deleted": true
  },
  "286b712128": {
   "answer": 4,
@@ -1149,7 +1203,14 @@ window.QCU_ANSWERS = {
  "31b58d32f7": {
   "answer": 2,
   "uv": 8,
-  "justification": "L'évaluation des risques professionnels est répertoriée dans le Document Unique (DUERP), obligatoire dans toute entreprise (art. R4121-1 du Code du travail)."
+  "justification": "L'évaluation des risques professionnels est répertoriée dans le Document Unique (DUERP), obligatoire dans toute entreprise (art. R4121-1 du Code du travail).",
+  "options": [
+   "Aucune des autres réponses",
+   "Le document de santé et de protection des salariés",
+   "Le document unique",
+   "Le document des dangers",
+   "Le document des risques"
+  ]
  },
  "ce1fa407c8": {
   "deleted": true
@@ -1321,7 +1382,15 @@ window.QCU_ANSWERS = {
  "8cba9e3efe": {
   "answer": 3,
   "uv": 8,
-  "justification": "TFP APS = Titre à Finalité Professionnelle Agent de Prévention et de Sécurité."
+  "justification": "TFP APS = Titre à Finalité Professionnelle Agent de Prévention et de Sécurité.",
+  "intitule": "Que signifient les initiales TFP APS ?",
+  "options": [
+   "Aucune des autres réponses",
+   "Titre à finalité professionnelle Agent Professionnel de Sécurité",
+   "Titre à finalité professionnelle Agent de Proximité et de Sûreté",
+   "Titre à finalité professionnelle Agent de Prévention et de Sécurité",
+   "Titre à finalité professionnelle Agent Privé de Sécurité"
+  ]
  },
  "0e357addd6": {
   "answer": 1,
@@ -1379,9 +1448,7 @@ window.QCU_ANSWERS = {
   "justification": "Lorsqu'un DAI est sollicité, l'alarme qui sonne au PCS est l'alarme restreinte (signal réservé au personnel de sécurité, avant l'alarme générale)."
  },
  "c2d8068872": {
-  "answer": 1,
-  "uv": 8,
-  "justification": "Lorsqu'un DAI est sollicité, l'alarme qui sonne au PCS est l'alarme restreinte (signal réservé au personnel de sécurité, avant l'alarme générale)."
+  "deleted": true
  },
  "13a87161f1": {
   "answer": 0,
@@ -1431,7 +1498,14 @@ window.QCU_ANSWERS = {
  "71bd0de400": {
   "answer": 1,
   "uv": 8,
-  "justification": "Au PC, on dépêche le rondier (déjà sur le terrain) sur le lieu de l'alarme pour la levée de doute, et on reste au PC pour coordonner."
+  "justification": "Au PC, on dépêche le rondier (déjà sur le terrain) sur le lieu de l'alarme pour la levée de doute, et on reste au PC pour coordonner.",
+  "options": [
+   "Vous effectuez vous-même la levée de doute",
+   "Vous demandez à votre collègue de se rendre sur le lieu prédis du déclenchement de l'alarme pour effectuer la levée de doute",
+   "Aucune des autres réponses",
+   "Vous attendez que votre collègue finisse sa ronde pour intervenir",
+   "Vous rejoignez au plus vite votre collègue pour intervenir plus efficacement"
+  ]
  },
  "92cc70ad6d": {
   "answer": 0,
@@ -1557,9 +1631,7 @@ window.QCU_ANSWERS = {
   ]
  },
  "765e235aa6": {
-  "answer": 3,
-  "uv": 9,
-  "justification": "L'article R211-23 du CSI impose de doter les membres du service d'ordre d'un signe distinctif, de moyens de communication avec l'OPJ et de la copie des agréments : toutes les réponses sont exactes."
+  "deleted": true
  },
  "27cd5d3b2b": {
   "deleted": true
@@ -1567,7 +1639,8 @@ window.QCU_ANSWERS = {
  "4ca4dc5494": {
   "answer": 4,
   "uv": 9,
-  "justification": "L'article R211-23 du CSI impose de doter les membres du service d'ordre d'un signe distinctif, de moyens de communication avec l'OPJ et de la copie des agréments : toutes les réponses sont exactes."
+  "justification": "L'article R211-23 du CSI impose de doter les membres du service d'ordre d'un signe distinctif, de moyens de communication avec l'OPJ et de la copie des agréments : toutes les réponses sont exactes.",
+  "intitule": "La partie réglementaire du CSI (R211-23) impose aux organisateurs de doter les membres de leur service d'ordre (pour être agréé afin de procéder aux palpations de sécurité ainsi qu'à l'inspection visuelle et à la fouille des bagages):"
  },
  "981a083c14": {
   "answer": 3,
