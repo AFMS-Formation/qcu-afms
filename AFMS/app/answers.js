@@ -435,7 +435,15 @@ window.QCU_ANSWERS = {
  "d670c345a7": {
   "answer": 3,
   "uv": 10,
-  "justification": "Chaîne de télésécurité : Détection – Transmission – Réception – Traitement – Intervention."
+  "justification": "Chaîne de télésécurité : Détection – Transmission – Réception – Traitement – Intervention.",
+  "intitule": "Quelle est la composition de la chaine de télésécurité ?",
+  "options": [
+   "Déclenchement - Lever de doute - Police - Main courante",
+   "Observation - Réglementation - Validation - Action",
+   "Veille - Repérage - Preuve - Formalisation",
+   "Détection - Transmission - Réception - Traitement - Intervention",
+   "Aucune des autres réponses"
+  ]
  },
  "fcf9977a13": {
   "answer": 1,
@@ -1738,9 +1746,16 @@ window.QCU_ANSWERS = {
   "justification": "Le port du DATI se justifie lorsqu'on effectue une vacation seul/isolé sur un site (protection du travailleur isolé)."
  },
  "82dd1e4f74": {
-  "answer": 3,
+  "answer": 2,
   "uv": 10,
-  "justification": "Seul la transmission d'une image peut revêtir un caractère illégal"
+  "justification": "Seul la transmission d'une image peut revêtir un caractère illégal",
+  "options": [
+   "Quand l'image est fixée sans le consentement d'une personne se trouvant dans un lieu public",
+   "Quand l'image est fixée sans le consentement d'une personne se trouvant dans un lieu public ou privé",
+   "Quand l'image est fixée sans le consentement d'une personne se trouvant dans un lieu privé",
+   "Seul la transmission d'une image peut revêtir un caractère illégal",
+   "Aucune des réponses est bonne"
+  ]
  },
  "5d73c5329b": {
   "answer": 4,
