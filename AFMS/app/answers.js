@@ -1909,9 +1909,9 @@ window.QCU_ANSWERS = {
   "justification": "Le DATI comporte notamment deux types d'alarme : le déclenchement volontaire et la perte de verticalité."
  },
  "739b461809": {
-  "answer": 4,
+  "answer": 3,
   "uv": 11,
-  "justification": "Alarme « SURCHAUFF » en chaufferie : appeler d'abord le technicien compétent, conformément aux consignes (ne pas intervenir soi-même)."
+  "justification": "Alarme « SURCHAUFF » en chaufferie : arrêter d'abord le signal sonore puis appeler le technicien compétent, conformément aux consignes (ne pas intervenir soi-même)."
  },
  "2196dba9c6": {
   "answer": 0,
